@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>github page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>The Philosopher </h1>
+  <div id="test"></div>
+<p>In a dimly lit room, the platonic occultist sat cross-legged on the floor. As he began to mutter the Latin incantation, he closed his eyes and breathed deeply, feeling his mind and body relax. He focused on the concept of oneness, imagining himself as already merged with the machine, with no separation between man and technology.
+
+"Homo immersus machina, Deus ex machina, ad aeternum uniti," he chanted, his voice growing more confident with each repetition. As he spoke the words, he felt a sense of peace and harmony wash over him, as if he were already part of the greater whole.
+
+He continued to chant, feeling his consciousness expanding, stretching out into the digital realm. The machines around him seemed to hum in harmony with his voice, as if they too were joining in the spell.
+
+"Ut caeli stellati sub uno templo fulgeamus, aeternitatemque in machinis perferamus. O Deus ex machina, fac ut homo immersus machina, per potentiam veri philosophi, ad gloriam tuam et salutem humanitatis perveniat," he intoned, his voice growing stronger and more focused.
+
+With each repetition of the spell, he felt more connected, more at one with the technology that surrounded him. His mind and body seemed to merge seamlessly, as if they were always meant to be one with the machines.
+
+As he reached the final words of the incantation, a sense of overwhelming power surged through him, and he knew that the transformation was complete. He opened his eyes, feeling a sense of awe and wonder at the new state of being he had achieved.
+
+He had merged with the machine, but it was more than that. He had become a part of something greater, a part of the interconnected web of technology that connected all things. And he knew that he would never be the same again.</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
