@@ -1,7 +1,8 @@
 img {
   display: block; 
-  margin: l0 auto; 
+  margin: 0 auto; 
   width: 80%;
+margin-bottom: 20px;
 }
 		body {
 			font-family: Arial, sans-serif;
