@@ -145,15 +145,11 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     display: block;
   }
 div  {
-margin: 0 auto;
-width: 500px;
-  height: 400px;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-div#chat-window {
-margin: 0 auto;
-  width: 500px;
-  height: 400px;
+#input {
+ margin: 0 auto;
+  width: 800px; /* increase the width value */
+  height: 600px; /* increase the height value */
 }
-
