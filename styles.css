@@ -5,6 +5,9 @@ img {
 margin-bottom: 20px;
 }
 		body {
+color: #fff;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
   color: #fff;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -14,19 +17,6 @@ margin-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-body::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: black;
-  mix-blend-mode: multiply;
-  opacity: 0.4;
 }
 
 		header {
