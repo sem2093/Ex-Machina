@@ -6,7 +6,7 @@ margin-bottom: 20px;
 }
 		body {
 color: #fff;
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
 
   
   font-family: Arial, sans-serif;
@@ -61,6 +61,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 		}
 
 		section {
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
@@ -74,6 +75,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 		}
 
 		section p {
+
 			font-size: 18px;
 			line-height: 1.5;
 		}
