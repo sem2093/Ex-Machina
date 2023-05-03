@@ -21,16 +21,17 @@
 		<p> Select a project from the list to learn more about it. Don't hesitate to contact me(see contact page)for more details regarding any of the projects as well!. </p>
 	</section>
  <label for="dropdown">Select a Project:</label>
-    <select id="dropdown">
-      <option value="option1">AI Chat Bot</option>
-      <option value="option2">Coding Educational platform</option>
-      <option value="option3">Essential News Tracker</option>
-    </select>
+<select id="dropdown" onchange="updateDescription()">
+  <option value="option1">AI Chat Bot</option>
+  <option value="option2">Coding Educational platform</option>
+  <option value="option3">Essential News Tracker</option>
+</select>
 
 <div id="description"></div>
-	<footer>
-		<p>&copy; 2023 Ex Machina. All rights reserved.</p>
-	</footer>
+
+<footer>
+  <p>&copy; 2023 Ex Machina. All rights reserved.</p>
+</footer>
 
 <script>
   function updateDescription() {
@@ -52,5 +53,6 @@
     }
   }
 </script>
+
 </body>
 </html>
