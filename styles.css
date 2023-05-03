@@ -145,9 +145,11 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     display: block;
   }
 div  {
-width: 50%;
-    height: 500px;
-    font-size: 18px;
-margin: 0 auto;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+#chat-window {
+  width: 500px;
+  height: 400px;
+}
+
