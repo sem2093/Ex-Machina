@@ -17,17 +17,15 @@ function updateDescription() {
     }
   }
 
-// Use JavaScript to listen for user input and process it
 var input = document.getElementById("input");
-input.addEventListener("keydown", function(event) {
-  if (event.keyCode === 13) { // 13 is the code for the "enter" key
-    var message = input.value;
-    input.value = "";
-    // Process the user's message and generate a response
-    var response = processMessage(message);
-    // Display the response to the user
-    displayMessage(response);
-  }
+var button = document.getElementById("submit-button");
+button.addEventListener("click", function() {
+  var message = input.value;
+  input.value = "";
+  // Process the user's message and generate a response
+  var response = processMessage(message);
+  // Display the response to the user
+  displayMessage(response);
 });
 
 // Define the chatbot's behavior and responses
@@ -42,3 +40,4 @@ function displayMessage(message) {
   messageElement.innerText = message;
   output.appendChild(messageElement);
 }
+
