@@ -130,6 +130,7 @@ text-align: center;
   }
 label {
     text-align: center;
+  width: 100%;
   }
   
   /* Center the select element */
