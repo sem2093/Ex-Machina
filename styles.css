@@ -114,3 +114,17 @@ h1,h2,p {
 text-align: center;
 }
 	
+  select#dropdown {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+  }
+  
+  /* Increase the size of the drop-down arrow */
+  select#dropdown::-ms-expand {
+    transform: scale(1.5);
+  }
+  
+  select#dropdown::-webkit-select-arrow {
+    transform: scale(1.5);
+  }
