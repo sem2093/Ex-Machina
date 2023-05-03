@@ -128,3 +128,12 @@ text-align: center;
   select#dropdown::-webkit-select-arrow {
     transform: scale(1.5);
   }
+label {
+    text-align: center;
+  }
+  
+  /* Center the select element */
+  select {
+    margin: 0 auto;
+    display: block;
+  }
