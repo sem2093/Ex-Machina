@@ -5,15 +5,17 @@ img {
 margin-bottom: 20px;
 }
 		body {
-color: #fff;
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 0;
-background-image: url("https://i.insider.com/57e162c4077dccca798b4d9f?width=1700&format=jpeg&auto=webp");
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: none; /* remove the background color */
+  background-image: url("https://i.insider.com/57e162c4077dccca798b4d9f?width=1700&format=jpeg&auto=webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-		}
+}
+
 body::before {
   content: "";
   display: block;
