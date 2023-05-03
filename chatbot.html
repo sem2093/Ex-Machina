@@ -9,7 +9,7 @@
 	<header>
 		<h1>Chatbot</h1>
 	</header>
-<script src="script.js"></script>
+
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
@@ -22,7 +22,8 @@
 		<h2></h2>
 		<p> </p>
 	</section>
-<div id="chat-window">
+
+ <div id="chat-window">
   <div id="output"></div>
   <div id="input-container">
     <input type="text" id="input" placeholder="Type your message...">
@@ -30,7 +31,32 @@
   </div>
   <div id="response"></div>
 </div>
+<script>
+var input = document.getElementById("input");
+var button = document.getElementById("submit-button");
+var responseBox = document.getElementById("response");
 
+button.addEventListener("click", function() {
+  var message = input.value;
+  input.value = "";
+  // Process the user's message and generate a response
+  var response = processMessage(message);
+  // Display the response to the user
+  displayMessage(response, responseBox);
+});
+
+// Define the chatbot's behavior and responses
+function processMessage(message) {
+  // Add your own logic here to generate a response based on the user's message
+  return "Hello! How can I help you today?";
+}
+
+function displayMessage(message, box) {
+  var messageElement = document.createElement("div");
+  messageElement.innerText = message;
+  box.appendChild(messageElement);
+}
+</script>
 
 <footer>
   <p>&copy; 2023 Ex Machina. All rights reserved.</p>
