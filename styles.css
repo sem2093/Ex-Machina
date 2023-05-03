@@ -84,8 +84,10 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 		}
 
 		footer {
-			background-color: #333;
-			color: #fff;h
+			background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
+  background-repeat: repeat-x;
+  background-size: cover;
+  color: #fff;h
 			padding: 20px;
 			text-align: center;
 		}
