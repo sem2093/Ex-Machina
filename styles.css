@@ -59,18 +59,23 @@ color: #fff;
 		}
 
 		nav a {
-			color: #fff;
-			text-decoration: none;
-			font-size: 18px;
-			padding: 5px;
-			border-radius: 5px;
-			transition: background-color 0.2s ease;
-		}
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease;
+  background-color: #333;
+  background-image: linear-gradient(to bottom, #444 0%, #333 100%);
+  box-shadow: 0 3px 0 #222;
+  border: none;
+}
 
-		nav a:hover {
-			background-color: #333;
-			color: #fff;
-		}
+nav a:hover {
+  background-color: #444;
+  background-image: linear-gradient(to bottom, #555 0%, #444 100%);
+  box-shadow: 0 2px 0 #222;
+}
 
 		section {
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
