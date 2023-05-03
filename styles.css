@@ -8,6 +8,10 @@ margin-bottom: 20px;
 			font-family: Arial, sans-serif;
 			margin: 0;
 			padding: 0;
+background-image: url("https://i.insider.com/57e162c4077dccca798b4d9f?width=1700&format=jpeg&auto=webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 		}
 
 		header {
@@ -69,7 +73,7 @@ margin-bottom: 20px;
 
 		footer {
 			background-color: #333;
-			color: #fff;
+			color: #fff;h
 			padding: 20px;
 			text-align: center;
 		}
