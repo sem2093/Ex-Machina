@@ -41,3 +41,4 @@ function displayMessage(message, box) {
   messageElement.innerText = message;
   box.appendChild(messageElement);
 }
+
