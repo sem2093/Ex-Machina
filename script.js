@@ -19,13 +19,15 @@ function updateDescription() {
 
 var input = document.getElementById("input");
 var button = document.getElementById("submit-button");
+var responseBox = document.getElementById("response");
+
 button.addEventListener("click", function() {
   var message = input.value;
   input.value = "";
   // Process the user's message and generate a response
   var response = processMessage(message);
   // Display the response to the user
-  displayMessage(response);
+  displayMessage(response, responseBox);
 });
 
 // Define the chatbot's behavior and responses
@@ -34,10 +36,8 @@ function processMessage(message) {
   return "Hello! How can I help you today?";
 }
 
-function displayMessage(message) {
-  var output = document.getElementById("output");
+function displayMessage(message, box) {
   var messageElement = document.createElement("div");
   messageElement.innerText = message;
-  output.appendChild(messageElement);
+  box.appendChild(messageElement);
 }
-
