@@ -3,6 +3,48 @@
 <head>
 	<title>Chatbot</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+
+/* Style the chat window container */
+#chat-window {
+  border:5px solid black;
+  width: 400px;
+  height: 500px;
+  padding: 10px;
+  overflow-y: scroll; /* add scroll bar when the content is larger than the container */
+}
+
+/* Style the output div */
+#output {
+  margin-bottom: 10px;
+}
+
+/* Style the input container */
+#input-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* Style the input text box */
+#input {
+  flex-grow: 1; /* make the input box grow to fill the available space */
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+/* Style the submit button */
+#submit-button {
+  padding: 5px 10px;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Style the response div */
+#response {
+  margin-top: 10px;
+}
+</style>
  
 </head>
 <body>
