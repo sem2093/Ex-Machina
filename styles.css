@@ -59,9 +59,11 @@ background-image: url("https://i.insider.com/57e162c4077dccca798b4d9f?width=1700
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
+color: #fff;
 		}
 
 		section h2 {
+color: #fff;
 			font-size: 24px;
 			margin: 0;
 		}
