@@ -116,6 +116,23 @@ function processMessage(message) {
     response = "I'm sorry, I didn't understand that. Could you please rephrase?";
   }
 
+if (message.toLowerCase().includes("how are you")) {
+  response = "I'm doing well, thank you for asking. How can I assist you?";
+}
+
+if (message.toLowerCase().includes("what is your name")) {
+  response = "My name is ChatBot. How can I assist you today?";
+}
+
+if (message.toLowerCase().includes("tell me a joke")) {
+  response = "Why did the tomato turn red? Because it saw the salad dressing!";
+}
+
+if (message.toLowerCase().includes("where are you located")) {
+  response = "I'm a digital assistant and don't have a physical location, but I'm happy to help you with any questions you have!";
+}
+
+
   return response;
 }
 
