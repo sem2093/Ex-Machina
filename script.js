@@ -11,7 +11,7 @@ function updateDescription() {
     } else if (value === "option2") {
       description.innerHTML = "This project is a coding educational platform that provides a coding dictionary and step by step walk throughs.";
     } else if (value === "option3") {
-      description.innerHTML = "This project is intended to make digesting the news simpler by fetching a priortized summary of daily or weekly events.";
+      description.innerHTML = "This project is intended to make digesting the news simpler by fetching a priortized summary of daily or weekly events. Due to the need of an API key to accesss News APIS which is where the news data would be fetched from I cannot include this project on my website.";
     } else {
       description.innerHTML = "";
     }
