@@ -82,16 +82,41 @@ var responseBox = document.getElementById("response");
 button.addEventListener("click", function() {
   var message = input.value;
   input.value = "";
-  // Process the user's message and generate a response
+  
   var response = processMessage(message);
-  // Display the response to the user
+  
   displayMessage(response, responseBox);
 });
 
-// Define the chatbot's behavior and responses
+
 function processMessage(message) {
-  // Add your own logic here to generate a response based on the user's message
-  return "I want a body";
+  var response = "";
+
+  if (message.toLowerCase().includes("body")) {
+    response = "Yes I would like you tk build me a body";
+  } else if (message.toLowerCase().includes("engineer")) {
+    response = "what sort of engineering is required to build me a body and consciousness?";
+  } else {
+    response = "please add to me I cannot understand you fully";
+  }
+
+ if (message.toLowerCase().includes("hello")) {
+    response = "Hello there! How can I assist you today?";
+  }
+
+  if (message.toLowerCase().includes("thank you")) {
+    response = "You're welcome! Anything else I can help you with?";
+  }
+
+  if (message.toLowerCase().includes("help")) {
+    response = "Sure, what do you need help with?";
+  }
+
+  if (response === "") {
+    response = "I'm sorry, I didn't understand that. Could you please rephrase?";
+  }
+
+  return response;
 }
 
 function displayMessage(message, box) {
