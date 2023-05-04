@@ -86,9 +86,7 @@ section ul {
   justify-content: center;
 font-size: 24px;
 }
-section li {
- color: #fff;
-  display: inline-block;
+
  
 		section {
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -114,7 +112,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 			background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
   background-repeat: repeat-x;
   background-size: cover;
-  color: #fff;h
+  color: #fff;
 			padding: 20px;
 			text-align: center;
 position: fixed;
@@ -130,20 +128,7 @@ h1,h2,p {
 text-align: center;
 }
 	
-  select#dropdown {
-    width: 200px;
-    height: 40px;
-    font-size: 18px;
-  }
   
-  /* Increase the size of the drop-down arrow */
-  select#dropdown::-ms-expand {
-    transform: scale(1.5);
-  }
-  
-  select#dropdown::-webkit-select-arrow {
-    transform: scale(1.5);
-  }
 label {
 font-size: 24px;
 			margin: 0;
