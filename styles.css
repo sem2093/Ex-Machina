@@ -40,42 +40,32 @@ color: #fff;
 			background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
   background-repeat: repeat-x;
   background-size: cover;
-  padding: 20px;
-			padding: 10px;
-		}
-
-		nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-		
-
-		nav li {
-  display: inline-block;
-  margin-right: 2em;
+			.hamburger {
+  display: none;
+  cursor: pointer;
 }
 
-		nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px;
-  border-radius: 5px;
-  transition: background-color 0.2s ease;
-  background-color: #333;
-  background-image: linear-gradient(to bottom, #444 0%, #333 100%);
-  box-shadow: 0 3px 0 #222;
-  border: none;
+.line {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
 }
 
-nav a:hover {
-  background-color: #444;
-  background-image: linear-gradient(to bottom, #555 0%, #444 100%);
-  box-shadow: 0 2px 0 #222;
-}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  
+  ul#menuItems {
+    display: none;
+  }
+  
+  ul#menuItems.show {
+    display: block;
+  }
+			}
+	
  
 section ul {
 
