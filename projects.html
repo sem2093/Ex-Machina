@@ -10,16 +10,20 @@
 		<h1>Projects</h1>
 	</header>
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutme.html">About Me</a></li>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <ul id="menuItems" class="hide">
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutme.html">About Me</a></li>
 <li><a href="projects.html">Projects</a></li>
 <li><a href="resources.html">Resources</a></li>
 <li><a href="tech.html">Technology</a></li>
-			<li><a href="contact.html">Contact</a></li>
-
-		</ul>
-	</nav>
+<li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 	<section>
 <ul>
 <li><a href="chatbot.html">Chatbot</a></li>
@@ -30,5 +34,12 @@
 <footer>
   <p>&copy; 2023 Ex Machina. All rights reserved.</p>
 </footer>
+	  <script>
+		function toggleMenu() {
+  var menuItems = document.getElementById("menuItems");
+  menuItems.classList.toggle("show");
+}
+
+	</script>
 </body>
 </html>
