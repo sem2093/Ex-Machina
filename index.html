@@ -9,15 +9,20 @@
 		<h1>Home</h1>
 	</header>
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutme.html">About Me</a></li>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <ul id="menuItems">
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutme.html">About Me</a></li>
 <li><a href="projects.html">Projects</a></li>
 <li><a href="resources.html">Resources</a></li>
 <li><a href="tech.html">Technology</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+<li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 	<section>
 		<h2>Welcome</h2>
 		<p> The theme of my website is Ex Machina not only because it's the name of my favorite movie but it's deeper meaning. It is a Latin phrase meaning "from the machine." I chose it as the theme for my website because it sums up my fascination with technology. The world is just beginning to experience what remarkable things can come "from the machine" as humans continue to perfect technology and technology continues to perfect humans by making us infinitely more productive and more capable in all fields. </p>
@@ -28,5 +33,12 @@ As a passionate coder, I have spent countless hours perfecting my craft and deve
 	<footer>
 		<p>&copy; 2023 Ex Machina. All rights reserved.</p>
 	</footer>
+	<script>
+		function toggleMenu() {
+  var menuItems = document.getElementById("menuItems");
+  menuItems.classList.toggle("show");
+}
+	</script>
+
 </body>
 </html>
