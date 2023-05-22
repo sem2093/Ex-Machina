@@ -42,10 +42,10 @@ color: #fff;
 }
 
 .line {
-  width: 50px;
-  height: 12px;
+  width: 100px;
+  height: 15px;
   background-color: #000;
-  margin: 5px;
+  margin: 10px;
 }
 
 ul#menuItems.hide {
