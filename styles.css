@@ -41,7 +41,8 @@ color: #fff;
   cursor: pointer;
 background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
 }
-
+ width: 140px;
+height: 140
 .line {
   width: 100px;
   height: 15px;
@@ -54,6 +55,7 @@ ul#menuItems.hide {
 }
 
 ul#menuItems.show {
+background-color: #000;
   display: block;
 }
 
