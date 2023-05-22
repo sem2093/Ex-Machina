@@ -50,21 +50,26 @@ margin: 0 auto;
 </head>
 <body>
 	<header>
-		<h1>Chatbot</h1>
+		<h1></h1>
 	</header>
 
 	<nav>
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="aboutme.html">About Me</a></li>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <ul id="menuItems" class="hide">
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutme.html">About Me</a></li>
 <li><a href="projects.html">Projects</a></li>
 <li><a href="resources.html">Resources</a></li>
 <li><a href="tech.html">Technology</a></li>
-			<li><a href="contact.html">Contact</a></li>
-		</ul>
-	</nav>
+<li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 	<section>
-		<h2></h2>
+		<h2>Chatbot</h2>
 		<p> </p>
 	</section>
 
@@ -78,6 +83,10 @@ margin: 0 auto;
 </div>
   <img src="https://www.iamag.co/wp-content/uploads/2015/09/Ex-Machina-Scene-Breakdown-5.jpg" alt="Ex machine session scene">
 <script>
+	function toggleMenu() {
+  var menuItems = document.getElementById("menuItems");
+  menuItems.classList.toggle("show");
+}
 var input = document.getElementById("input");
 var button = document.getElementById("submit-button");
 var responseBox = document.getElementById("response");
