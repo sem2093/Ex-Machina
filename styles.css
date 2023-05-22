@@ -93,6 +93,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 			max-width: 800px;
 			margin: 0 auto;
 			padding: 20px;
+			text-align: center;
 
 		}
 
@@ -110,6 +111,8 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 section a {
   display: block;
   margin-bottom: 10px; /* Adjust the margin as needed */
+margin-left: auto;
+  margin-right: auto;
 }
 
 
