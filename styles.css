@@ -200,7 +200,7 @@ ul#menuItems.show {
 background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
   display: block;
 list-style: none;
-z-index: 888;
+
 }
 ul#menuItems.show li {
   border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
@@ -208,7 +208,7 @@ ul#menuItems.show li {
 font-size: 40px;
   color: white;
   text-decoration: none;
-	z-index: 888;
+	
 }
 
 #submenu {
