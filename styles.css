@@ -102,12 +102,15 @@ font-size: 30px;
 
 			font-size: 18px;
 			line-height: 1.5;
+			background-color: rgba(0, 0, 0, 0.5);
 		}
 p.email {
+	background-color: rgba(0, 0, 0, 0.5);
   font-size: 40px;
 }
 
 p.phone {
+	background-color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 
@@ -137,9 +140,11 @@ position: fixed;
 		}
 h1,h2,p {
 text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 h3 {
 font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 	
   
