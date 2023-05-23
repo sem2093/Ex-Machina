@@ -241,10 +241,12 @@ ul#menuItems {
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
   list-style: none;
+z-index: 50;
 }
 ul#menuItems li a {
   color: white;
   text-decoration: none;
+z-index: 50;
 }
 
 #submenu li a {
