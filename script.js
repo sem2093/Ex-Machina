@@ -26,16 +26,14 @@ function toggleMenu() {
   menuItems.classList.toggle("show");
 }
 
+document.getElementById("projectsMenuItem").addEventListener("click", function() {
+  var submenu = document.getElementById("submenu");
+  submenu.classList.toggle("show");
 
-// Get a reference to the "Projects" menu item
-const projectsMenuItem = document.querySelector('#menuItems > li:nth-child(3)');
-
-// Get a reference to the submenu
-const submenu = document.querySelector('#submenu');
-
-// Add a click event listener to the "Projects" menu item
-projectsMenuItem.addEventListener('click', function() {
-  // Toggle the display of the submenu
-  submenu.classList.toggle('show');
+  // Calculate the position of the submenu relative to the "Projects" menu item
+  var projectsMenuItem = document.getElementById("projectsMenuItem");
+  var projectsMenuItemRect = projectsMenuItem.getBoundingClientRect();
+  submenu.style.top = projectsMenuItemRect.bottom + "px";
+  submenu.style.left = projectsMenuItemRect.left + "px";
 });
 
