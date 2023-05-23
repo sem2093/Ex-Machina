@@ -42,55 +42,6 @@ color: #fff;
   cursor: pointer;
   width: 130px; /* Adjust the width as needed */
   height: 130px; /* Adjust the height as needed */
-  background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
-  background-size: cover; /* Adjust background sizing as needed */
-  background-repeat: no-repeat; /* Adjust background repeat as needed */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-border-radius: 10px;
-}
-
-.line {
-  width: 80%; /* Adjust the width of the lines as needed */
-  height: 15px;
-  background-color: #fff;
-  margin: 15px;
-}
-
-ul#menuItems.hide {
-  display: none;
-}
-
-ul#menuItems.show {
-background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
-  display: block;
-list-style: none;
-}
-ul#menuItems.show li {
-  border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
-  padding: 50px; /* Adjust padding as needed */
-}
-.hide {
-  display: none;
-}
-
-.submenu {
-  display: none;
-}
-
-.submenu.show {
-  display: block;
-  background-color: #f1f1f1;
-  color: #333;
-  padding: 10px;
-  transition: opacity 0.3s ease;
-}
-
-.submenu.show li {
-  margin-bottom: 5px;
-}
 
  
 section ul {
@@ -212,11 +163,84 @@ button {
   width: 100%;
   padding: 5px;
 }
+.hamburger {
+  cursor: pointer;
+  width: 130px; /* Adjust the width as needed */
+  height: 130px; /* Adjust the height as needed */
+  background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
+  background-size: cover; /* Adjust background sizing as needed */
+  background-repeat: no-repeat; /* Adjust background repeat as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+border-radius: 10px;
+}
 
-#menuItems li {
-  font-size: 40px;
+.line {
+  width: 80%; /* Adjust the width of the lines as needed */
+  height: 15px;
+  background-color: #fff;
+  margin: 15px;
+}
+
+ul#menuItems.hide {
+  display: none;
+}
+
+ul#menuItems.show {
+background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
+  display: block;
+list-style: none;
+}
+ul#menuItems.show li {
+  border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
+  padding: 50px; /* Adjust padding as needed */
+font-size: 40px;
   color: white;
   text-decoration: none;
 }
+
+#submenu {
+background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 100px; 
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Ensure the submenu appears above other elements */
+font-size: 50px;
+}
+
+#submenu.show {
+  display: block;
+}
+
+/* Other styles for the submenu and menu items */
+
+nav {
+  position: relative;
+}
+
+ul#menuItems {
+  position: absolute;
+  top: 100%; /* Position the menu items below the hamburger button */
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  list-style: none;
+}
+ul#menuItems li a {
+  color: white;
+  text-decoration: none;
+}
+
+#submenu li a {
+  color: white;
+  text-decoration: none;
+}
+
 
 
