@@ -37,14 +37,7 @@ color: #fff;
 			margin: 0;
 		}
 
-		
-.hamburger {
-  cursor: pointer;
-  width: 130px; /* Adjust the width as needed */
-  height: 130px; /* Adjust the height as needed */
-
- 
-section ul {
+ section ul {
   display: flex;
   flex-direction: column;
   list-style: none;
