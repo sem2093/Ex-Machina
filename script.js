@@ -26,16 +26,16 @@ function toggleMenu() {
   menuItems.classList.toggle("show");
 }
 
-// Get the parent menu item that contains the submenu
-const menuItem = document.querySelector('#menuItems li:nth-child(3)');
 
-// Get the submenu element
-const submenu = document.querySelector('.submenu');
+// Get a reference to the "Projects" menu item
+const projectsMenuItem = document.querySelector('#menuItems > li:nth-child(3)');
 
-// Add click event listener to the parent menu item
-menuItem.addEventListener('click', function() {
+// Get a reference to the submenu
+const submenu = document.querySelector('#submenu');
+
+// Add a click event listener to the "Projects" menu item
+projectsMenuItem.addEventListener('click', function() {
   // Toggle the display of the submenu
-  submenu.style.display = (submenu.style.display === 'none') ? 'block' : 'none';
+  submenu.classList.toggle('show');
 });
-
 
