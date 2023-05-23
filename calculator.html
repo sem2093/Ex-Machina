@@ -5,7 +5,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
   <h1>calculator</h1>
+  </header>
+  <nav>
+  <div class="hamburger" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+  <ul id="menuItems" class="hide">
+<li><a href="index.html">Home</a></li>
+<li><a href="aboutme.html">About Me</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="tech.html">Technology</a></li>
+<li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
  <div class="calculator">
   <input type="text" id="result" readonly>
   <div class="buttons">
