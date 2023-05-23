@@ -39,8 +39,8 @@ color: #fff;
 		
 .hamburger {
   cursor: pointer;
-  width: 100px; /* Adjust the width as needed */
-  height: 100px; /* Adjust the height as needed */
+  width: 130px; /* Adjust the width as needed */
+  height: 130px; /* Adjust the height as needed */
   background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
   background-size: cover; /* Adjust background sizing as needed */
   background-repeat: no-repeat; /* Adjust background repeat as needed */
@@ -51,10 +51,10 @@ color: #fff;
 }
 
 .line {
-  width: 60%; /* Adjust the width of the lines as needed */
+  width: 80%; /* Adjust the width of the lines as needed */
   height: 15px;
   background-color: #000;
-  margin: 10px;
+  margin: 15px;
 }
 
 ul#menuItems.hide {
