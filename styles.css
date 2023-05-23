@@ -6,6 +6,7 @@ html, body {
 }
 
 img {
+	z-index: 1;
   display: block; 
   margin: 0 auto; 
   width: 80%;
@@ -199,6 +200,7 @@ ul#menuItems.show {
 background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
   display: block;
 list-style: none;
+z-index: 9999;
 }
 ul#menuItems.show li {
   border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
@@ -206,6 +208,7 @@ ul#menuItems.show li {
 font-size: 40px;
   color: white;
   text-decoration: none;
+	z-index: 9999;
 }
 
 #submenu {
