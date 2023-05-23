@@ -72,12 +72,24 @@ ul#menuItems.show li {
   border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
   padding: 10px; /* Adjust padding as needed */
 }
-ul.submenu {
+.hide {
   display: none;
 }
 
-ul#menuItems.show .submenu {
+.submenu {
+  display: none;
+}
+
+.submenu.show {
   display: block;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.submenu.show li {
+  margin-bottom: 5px;
 }
 
  
