@@ -70,7 +70,7 @@ list-style: none;
 }
 ul#menuItems.show li {
   border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
-  padding: 10px; /* Adjust padding as needed */
+  padding: 50px; /* Adjust padding as needed */
 }
 .hide {
   display: none;
