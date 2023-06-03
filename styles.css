@@ -1,4 +1,4 @@
-html, body {
+html, {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -16,8 +16,9 @@ border-radius: 50px;
 }
 
 		body {
+		
 color: #fff;
- font-family: Arial, sans-serif;
+ f⁠o⁠n⁠t⁠-⁠f⁠a⁠m⁠i⁠l⁠y⁠:⁠ f⁠a⁠n⁠t⁠a⁠s⁠y⁠;
   margin: 0;
   padding: 0;
   background: none; /* remove the background color */
