@@ -247,5 +247,18 @@ z-index: 50;
   text-decoration: none;
 }
 
+.container {
+display: flex;
+flex-direction: column;
+list-style: none;
+  margin:  100px;
+  padding: 0;
+  justify-content: center;
+}
+
+.part {
+width: 300px
+height: 300px
+}
 
 
