@@ -63,18 +63,14 @@ h3 {
 font-size: 30px;
 }
 		section p {
-
 			font-size: 18px;
 			line-height: 1.5;
-			background-color: rgba(0, 0, 0, 0.5);
 		}
 p.email {
-	background-color: rgba(0, 0, 0, 0.5);
   font-size: 40px;
 }
 
 p.phone {
-	background-color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 
@@ -87,7 +83,6 @@ margin-left: auto;
 
 
 		footer {
-background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
   background-repeat: repeat-x;
   background-size: cover;
   color: #fff;
@@ -104,11 +99,11 @@ position: fixed;
 		}
 h1,h2,p {
 text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
+	
 }
 h3 {
 font-size: 30px;
-	background-color: rgba(0, 0, 0, 0.5);
+	
 }
 	
   
@@ -173,7 +168,7 @@ button {
   cursor: pointer;
   width: 130px; /* Adjust the width as needed */
   height: 130px; /* Adjust the height as needed */
-  background-image: url('https://img.freepik.com/free-photo/brown-wooden-texture-flooring-background_53876-153336.jpg?w=360');
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover; /* Adjust background sizing as needed */
   background-repeat: no-repeat; /* Adjust background repeat as needed */
   display: flex;
