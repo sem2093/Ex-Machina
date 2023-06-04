@@ -16,13 +16,12 @@ border-radius: 50px;
 }
 
 		body {
-		
+      background: linear-gradient(to left, #000000, #ff3300);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
-  background: none; /* remove the background color */
-  background-image: url("https://static.businessinsider.com/image/57e05ffab0ef9766008b6cea-2004/25_architecture_%C2%A9.jpg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center center;
 }
 
