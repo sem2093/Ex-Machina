@@ -37,3 +37,8 @@ document.getElementById("projectsMenuItem").addEventListener("click", function()
   submenu.style.left = projectsMenuItemRect.left + "px";
 });
 
+//new nav dropdown
+function toggleMenu() {
+  var navMenu = document.getElementById("navMenu");
+  navMenu.classList.toggle("open");
+}
