@@ -6,30 +6,23 @@
 </head>
 <body>
 	<header>
-		<h1></h1>
-	</header>
-		<nav>
-  <div class="hamburger" onclick="toggleMenu()">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
+		<nav class="navbar">
+  <div class="navbar-toggle" onclick="toggleMenu()">
+    <div class="toggle-line"></div>
+    <div class="toggle-line"></div>
+    <div class="toggle-line"></div>
   </div>
-  <ul id="menuItems">
+  <ul class="nav-menu" id="navMenu">
     <li><a href="index.html">Home</a></li>
     <li><a href="aboutme.html">About Me</a></li>
-<li id="projectsMenuItem">Projects</li>
-    <li><a href="resources.html">Resources</a></li>
+  <li><a href="resources.html">Resources</a></li>
     <li><a href="tech.html">Technology</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
-
-<ul id="submenu">
-     <li><a href="chatbot.html">Chatbot</a></li>
-        <li><a href="calculator.html">Calculator</a></li>
-  </ul>
 </nav>
-	<section>
-		<h2> Email/Phone/Social</h2>
+</header>
+
+		<h1> Email/Phone/Social</h1>
 <p class="email">sem2093@gmail.com</p>
 <p class="phone">1-937-474-9664</p>
 
@@ -41,16 +34,9 @@
 	<a href="https://m.facebook.com/profile.php?id=100008629298322">
  <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook"style="width: 100px; height: 100px;">
 	
-	</section>
-	<h3>Send me an anonymous message. (message is sent to my email above.) </h3>
-	<form action="https://your-heroku-app-url.com/submit-feedback" method="POST">
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
-        <input type="submit" value="Submit">
-    </form>
- 
+
 	<footer>
-		<p>&copy; 2023 Ex Machina. All rights reserved.</p>
+		<p>&copy; 2023 Steven Miller. All rights reserved.</p>
 	</footer>
 	<script src="script.js"></script>
 </body>
