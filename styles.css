@@ -1,9 +1,6 @@
 html {
   height: 100%;
-  margin: 0;
-  padding: 0;
   min-height: 100%;
-   
 background: linear-gradient(to left, #000000, #808080);
 background-repeat: no-repeat;
 background-size: cover;
@@ -25,66 +22,32 @@ font-family: Papyrus, fantasy, sans-serif;
   
 }
 
-		header {
-			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-			color: #fff;
-			padding: 20px;
-		}
 
-		h1 {
-			font-size: 50px;
-			margin: 0;
-		}
-    h2 {
+h1 {
+font-size: 50px;
+}
+h2 {
 font-size: 40px;	 
-		}
+}
 h3 {
 font-size: 30px;
 }
 
- section ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-font-size: 24px;
-}
+ 
 
  
-		section {
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-			max-width: 800px;
-			margin: 0 auto;
-			padding: 20px;
-			text-align: center;
-
-		}
-
-		section p {
-			font-size: 18px;
-			line-height: 1.5;
-		}
+		
 p.email {
   font-size: 40px;
 }
 
 p.phone {
-  font-size: 14px;
-}
-
-section a {
-  display: block;
-  margin-bottom: 10px; /* Adjust the margin as needed */
-margin-left: auto;
-  margin-right: auto;
-}
+  font-size: 40px;
+  }
 
 
 		footer {
-  background-repeat: repeat-x;
-  background-size: cover;
+      
   color: #fff;
 			padding: 20px;
 			text-align: center;
@@ -92,33 +55,7 @@ position: fixed;
   bottom: 0;
   width: 100%;
 		}
-
-		footer p {
-			font-size: 18px;
-			margin: 0;
-		}
-h1,h2,p {
-text-align: center;
-	
-}
-	
   
-label {
-font-size: 24px;
-			margin: 0;
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    text-align: center;
-  width: 100%;
-  }
-  
-  /* Center the select element */
-  select {
-    margin: 0 auto;
-    display: block;
-  }
-div  {
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 
 a {
   color: white;
@@ -155,7 +92,6 @@ button {
       padding: 20px;
     }
 
-    /* Increase the size of the buttons */
     .calculator button {
       font-size: 100px;
       padding: 60px 120px;
@@ -217,11 +153,7 @@ font-size: 50px;
   display: block;
 }
 
-/* Other styles for the submenu and menu items */
 
-nav {
-  position: relative;
-}
 
 ul#menuItems {
   position: absolute;
