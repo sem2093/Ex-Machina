@@ -96,84 +96,7 @@ button {
       font-size: 100px;
       padding: 60px 120px;
     }
-.hamburger {
-  cursor: pointer;
-  width: 130px; /* Adjust the width as needed */
-  height: 130px; /* Adjust the height as needed */
-  background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover; /* Adjust background sizing as needed */
-  background-repeat: no-repeat; /* Adjust background repeat as needed */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-border-radius: 10px;
-}
 
-.line {
-  width: 80%; /* Adjust the width of the lines as needed */
-  height: 15px;
-  background-color: #fff;
-  margin: 15px;
-}
-
-ul#menuItems.hide {
-  display: none;
-}
-
-ul#menuItems.show {
-background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% transparency */
-  display: block;
-list-style: none;
-
-}
-ul#menuItems.show li {
-  border-bottom: 1px solid #ccc; /* Add a bottom border to each <li> element within ul#menuItems.show */
-  padding: 50px; /* Adjust padding as needed */
-font-size: 40px;
-  color: white;
-  text-decoration: none;
-	
-}
-
-#submenu {
-background-color: rgba(0, 0, 0, 0.8);
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 100px; 
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 999; /* Ensure the submenu appears above other elements */
-font-size: 50px;
-}
-
-#submenu.show {
-  display: block;
-}
-
-
-
-ul#menuItems {
-  position: absolute;
-  top: 100%; /* Position the menu items below the hamburger button */
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: none;
-  list-style: none;
-z-index: 50;
-}
-ul#menuItems li a {
-  color: white;
-  text-decoration: none;
-z-index: 50;
-}
-
-#submenu li a {
-  color: white;
-  text-decoration: none;
-}
 
 .container {
 display: flex;
@@ -194,5 +117,42 @@ margin: 20px;
   max-height: 100%;
   object-fit: cover;
 }
+
+/* new nav dropdown*/
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+}
+
+.toggle-line {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+}
+
+.nav-menu {
+  display: none;
+  list-style: none;
+}
+
+.nav-menu.open {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-menu li {
+  margin-bottom: 10px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #000;
+}
+/* End of nav drop code */
 
 
