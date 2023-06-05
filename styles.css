@@ -240,12 +240,12 @@ display: flex;
 flex-direction: row;
 list-style: none;
   padding: 0;
-justify-content: space-between;
+justify-content: space-around;
 }
 .part {
 width: 200px;
 height: 200px;
-margin:10px;
+
 }
 
 .part img {
