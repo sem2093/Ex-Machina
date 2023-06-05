@@ -16,7 +16,7 @@ background-position: center center;
 		body {
       display:flex;
       justify-content: center;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
 align-items: center;
   align-content: space-between;
