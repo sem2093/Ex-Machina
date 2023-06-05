@@ -14,13 +14,16 @@ background-position: center center;
 
 
 		body {
-
-      width 
       display:flex;
       justify-content: center;
       flex-direction: row;
       flex-wrap: wrap;
-
+      display:flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+align-items: center;
+  align-content: space-between;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
   
