@@ -243,9 +243,9 @@ list-style: none;
 justify-content: space-around;
 }
 .part {
-width: 200px;
-height: 200px;
-
+width: 150px;
+height: 150px;
+margin: 20px;
 }
 
 .part img {
