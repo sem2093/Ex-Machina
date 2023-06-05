@@ -159,4 +159,10 @@ margin: 20px;
 }
 /* End of nav drop code */
 
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 
