@@ -7,12 +7,6 @@ html,body {
 
 img {
 	z-index: 1;
-  display: block; 
-  margin: 0 auto; 
-  width: 80%;
-margin-bottom: 20px;
-opacity: 0.8;
-border-radius: 50px;
 }
 
 		body {
@@ -32,9 +26,15 @@ font-family: Papyrus, fantasy, sans-serif;
 		}
 
 		h1 {
-			font-size: 36px;
+			font-size: 50px;
 			margin: 0;
 		}
+    h2 {
+font-size: 40px;	 
+		}
+h3 {
+font-size: 30px;
+}
 
  section ul {
   display: flex;
@@ -56,12 +56,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 		}
 
-section h2 {
-font-size: 50px;	 
-		}
-h3 {
-font-size: 30px;
-}
 		section p {
 			font-size: 18px;
 			line-height: 1.5;
@@ -99,10 +93,6 @@ position: fixed;
 		}
 h1,h2,p {
 text-align: center;
-	
-}
-h3 {
-font-size: 30px;
 	
 }
 	
