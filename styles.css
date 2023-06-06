@@ -75,6 +75,12 @@ a {
 font-size: 40px;
 }
 
+.follow {
+  display:flex;
+      justify-content: center;
+      flex-direction: row;
+  }
+
 
 .container {
 display: flex;
