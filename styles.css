@@ -136,10 +136,16 @@ margin: 20px;
 }
 
 .navbar-toggle {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
   cursor: pointer;
 }
 
 .toggle-line {
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
   width: 70px;
   height: 11px;
   background-color: #FFFFFF;
@@ -147,7 +153,9 @@ margin: 20px;
 }
 
 .nav-menu {
-  display: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
   list-style: none;
 }
 
