@@ -7,14 +7,12 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-
-		body {
+body {
       display:flex;
       justify-content: center;
       flex-direction: column;
       flex-wrap: wrap;
 align-items: center;
-  
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
   text-align: center;
@@ -33,9 +31,14 @@ h3 {
   text-align: center;
 font-size: 30px;
 }
-
- 
-
+section {
+  display:flex;
+      justify-content: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+align-items: center;
+ text-align: center;
+}
  
 		
 p.email {
@@ -48,8 +51,7 @@ p.phone {
 
 
 		footer {
-      
-  color: #fff;
+      color: #fff;
 			padding: 20px;
 			text-align: center;
 position: fixed;
@@ -64,40 +66,6 @@ a {
   text-decoration: none;
 font-size: 40px;
 }
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
-}
-
-button {
-  width: 100%;
-  padding: 30px;
-}
-#result {
-  width: 100%;
-  margin-bottom: 10px;
-}
-    .calculator {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      width: 100%;
-      border: 1px solid #ccc;
-  padding: 10px;
-    }
-
- .calculator input[type="text"] {
-      font-size: 50px;
-      padding: 20px;
-    }
-
-    .calculator button {
-      font-size: 100px;
-      padding: 60px 120px;
-    }
 
 
 .container {
@@ -105,7 +73,7 @@ display: flex;
 flex-direction: row;
 list-style: none;
 justify-content: space-around;
-width: 60%;
+width: 100%;
 flex-wrap: wrap;
 }
 .part {
@@ -120,59 +88,6 @@ margin: 20px;
   object-fit: cover;
 }
 
-/* new nav dropdown*/
-.navbar {
-  flex-grow: 1;
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
-.navbar-toggle {
-  flex-grow: 1;
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-start;
-  cursor: pointer;
-}
-
-.toggle-line {
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-start;
-  flex-grow: 1;
-  width: 70px;
-  height: 11px;
-  background-color: #FFFFFF;
-  margin-bottom: 5px;
-}
-
-.nav-menu {
-  list-style: none;
-}
-
-.nav-menu.open {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-menu li {
-  margin-bottom: 10px;
-}
-
-.nav-menu a {
-  text-decoration: none;
-  color: #000;
-}
-/* End of nav drop code */
-
-header {
-  flex-grow: 1;
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
 
