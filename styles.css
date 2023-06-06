@@ -77,9 +77,9 @@ font-size: 40px;
 
 .follow {
   display:flex;
-      justify-content: center;
       flex-direction: row;
-  }
+  justify-content: space-around;
+}
 
 
 .container {
