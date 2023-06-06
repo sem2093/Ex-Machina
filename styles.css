@@ -5,14 +5,7 @@ background: linear-gradient(to left, #000000, #808080);
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-background-position: center center;
 }
-
-nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  }
 
 
 		body {
@@ -129,6 +122,7 @@ margin: 20px;
 
 /* new nav dropdown*/
 .navbar {
+  flex-grow: 1;
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
@@ -136,6 +130,7 @@ margin: 20px;
 }
 
 .navbar-toggle {
+  flex-grow: 1;
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
@@ -146,6 +141,7 @@ margin: 20px;
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
+  flex-grow: 1;
   width: 70px;
   height: 11px;
   background-color: #FFFFFF;
@@ -153,9 +149,6 @@ margin: 20px;
 }
 
 .nav-menu {
-  flex-direction: row;
-  display: flex;
-  justify-content: flex-start;
   list-style: none;
 }
 
@@ -175,6 +168,7 @@ margin: 20px;
 /* End of nav drop code */
 
 header {
+  flex-grow: 1;
   flex-direction: row;
   display: flex;
   justify-content: flex-start;
