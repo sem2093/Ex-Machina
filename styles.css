@@ -80,6 +80,9 @@ font-size: 40px;
       flex-direction: row;
   justify-content: space-around;
 }
+.smicon {
+  margin: 40px;
+ }
 
 
 .container {
