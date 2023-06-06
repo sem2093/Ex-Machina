@@ -130,7 +130,8 @@ margin: 20px;
 /* new nav dropdown*/
 .navbar {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .navbar-toggle {
