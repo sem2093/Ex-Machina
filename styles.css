@@ -8,6 +8,11 @@ background-attachment: fixed;
 background-position: center center;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  }
 
 
 		body {
