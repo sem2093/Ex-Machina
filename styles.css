@@ -129,6 +129,7 @@ margin: 20px;
 
 /* new nav dropdown*/
 .navbar {
+  flex-direction: row;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -166,6 +167,7 @@ margin: 20px;
 /* End of nav drop code */
 
 header {
+  flex-direction: row;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
