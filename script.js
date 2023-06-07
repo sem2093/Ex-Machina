@@ -21,3 +21,9 @@ document
 .getElementById("h2con").innerHTML = "Contact";
 document 
 .getElementById("h2f").innerHTML = "follow";
+document 
+.getElementById("pc").innerHTML = "&copy Steve Miller 2023 All Rights Reserved";
+document 
+.getElementById("pp").innerHTML = "937-474-9664";
+document 
+.getElementById("pem").innerHTML = "sem2093@gmail.com";
