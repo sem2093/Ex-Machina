@@ -7,82 +7,59 @@ background-size: cover;
 background-attachment: fixed;
 }       
     
-iframe.d {
+iframe {
   }
-body.a{
+body{
 display:grid;
-grid-template-rows: 1fr 20fr 5fr;
+grid-template-rows: 150px 20fr 5fr;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
 }
-header.b {
+header {
 display:grid;
 grid-template-rows: 1fr;
+grid-template-columns: 1fr;
 }
 
-main.b {
+main{
 display:grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr;
 }
 
-footer.b {
+footer{
   display:grid;
-grid-template-rows: 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr;
   }
   
   
-  div.c {
-    display:grid;
-grid-template-rows: 1fr 1fr 1fr;
-    }
-    
-    img.d{
-    margin: 40px;
-    }
-    
-  img.e{
-    margin: 40px;
+  div.selfportrait {
+      display:grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr;
     }
     
     img {
       margin: 40px;
       width: 200px;
       height:200px;
-    }
+      }
 
-
-div.d {
-width:200px;
-height:200px;
-margin:30px;
-}
-
-
-
-h1.c{
+h1{
   text-align: center;
 font-size: 100px;
 }
-h2.d{
+h2{
   text-align: center;
 font-size:  60px;	 
 }
 
 
-p.d {
+p {
   text-align: center;
   font-size: 25px;
   }
-
-section.c {
-display:grid;
-grid-template-rows: 1fr 1fr 1fr;
-}
-section.comp {
-display:grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-}
 
 
 
