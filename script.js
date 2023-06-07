@@ -28,8 +28,8 @@ document
 document 
 .getElementById("pem").innerHTML = "sem2093@gmail.com";
 document 
-.getElementById("pem").innerHTML = "<h1 id="h1"></h1>";
+.getElementById("header").innerHTML = "<h1 id="h1"></h1>";
 document 
-.getElementById("pem").innerHTML = "sem2093@gmail.com";
+.getElementById("selfportrait").innerHTML = "<img src="0C04FB8A-647A-47AD-B39B-5573D3C59627.png" alt="selfportrait" width="auto" height="800px" class="selfportrait">";
 document 
 .getElementById("pem").innerHTML = "sem2093@gmail.com";
