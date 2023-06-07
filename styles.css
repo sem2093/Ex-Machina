@@ -10,14 +10,12 @@ background-attachment: fixed;
 iframe.d {
   }
 body.a{
-      display:flex;
-      justify-content: center;
-      flex-direction: column;
-      flex-wrap: wrap;
-align-items: center;
+display:grid;
+grid-template-rows: 1fr 4fr 2fr;
+      
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
-  text-align: center;
+ 
 }
 header.b {
 display:flex;
