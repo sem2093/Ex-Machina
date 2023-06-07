@@ -11,11 +11,9 @@ iframe.d {
   }
 body.a{
 display:grid;
-grid-template-rows: 1fr 4fr 2fr;
-      
+grid-template-rows: 1fr 10fr 5fr;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
- 
 }
 header.b {
 display:flex;
