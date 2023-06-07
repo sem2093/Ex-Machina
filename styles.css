@@ -32,12 +32,8 @@ grid-template-rows: 1fr 1fr 1fr;
   
   
   div.c {
-    display:flex;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-text-align: center;
+    display:grid;
+grid-template-rows: 1fr 1fr 1fr;
     }
     
     img.d{
@@ -79,12 +75,8 @@ p.d {
   }
 
 section.c {
-display:flex;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-text-align: center;
+display:grid;
+grid-template-rows: 1fr 1fr 1fr;
 }
  
 
