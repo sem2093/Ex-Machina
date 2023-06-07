@@ -10,34 +10,24 @@ background-attachment: fixed;
 iframe {
   }
 body{
-display:grid;
-grid-template-rows: 150px 20fr 5fr;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
 }
 header {
-display:grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr;
+
 }
 
 main{
-display:grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr;
+
 }
 
 footer{
-  display:grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr;
+  
   }
   
   
   div.selfportrait {
-      display:grid;
-grid-template-rows: 1fr;
-grid-template-columns: 1fr;
+      
     }
     
     img {
