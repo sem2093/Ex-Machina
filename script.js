@@ -16,4 +16,8 @@ document
 document 
 .getElementById("h2ce").innerHTML = "Certifications";
 document 
-.getElementById("h2e").innerHTML = "Education";
+.getElementById("pex").innerHTML = "Ive held many jobs such as customer service representative, fire alarm and security technician, and sea food processor.";
+document 
+.getElementById("h2con").innerHTML = "Contact";
+document 
+.getElementById("h2f").innerHTML = "follow";
