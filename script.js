@@ -20,7 +20,7 @@ document
 document 
 .getElementById("h2con").innerHTML = "Contact";
 document 
-.getElementById("h2f").innerHTML = "follow";
+.getElementById("h2f").innerHTML = "Follow";
 document 
 .getElementById("pc").innerHTML = "&copy Steve Miller 2023 All Rights Reserved";
 document 
