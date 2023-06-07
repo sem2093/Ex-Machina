@@ -11,35 +11,23 @@ iframe.d {
   }
 body.a{
 display:grid;
-grid-template-rows: 1fr 10fr 5fr;
+grid-template-rows: 1fr 20fr 5fr;
 color: #fff;
 font-family: Papyrus, fantasy, sans-serif;
 }
 header.b {
-display:flex;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-text-align: center;
+display:grid;
+grid-template-rows: 1fr;
 }
 
 main.b {
-display:flex;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-text-align: center;
+display:grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 footer.b {
-  display:flex;
-justify-content: center;
-flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
-text-align: center;
+  display:grid;
+grid-template-rows: 1fr 1fr 1fr;
   }
   
   
