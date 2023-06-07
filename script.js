@@ -32,4 +32,4 @@ document
 document 
 .getElementById("selfportrait").innerHTML = "<img src="0C04FB8A-647A-47AD-B39B-5573D3C59627.png" alt="selfportrait" width="auto" height="800px" class="selfportrait">";
 document 
-.getElementById("pem").innerHTML = "sem2093@gmail.com";
+.getElementById("pam").innerHTML = "Hi, my name is Steven Miller. I am a self-learner, curious and enthusiastic in learning new things. Curiosity is what makes a person think different.";
