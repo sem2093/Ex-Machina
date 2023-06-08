@@ -31,3 +31,19 @@ document.getElementById("h2ce").innerHTML="Certificates";
 let el = document.querySelector("#htmlco"); 
 el.src= 
 "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+
+let el = document.querySelector("#cssco"); 
+el.src= 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+
+let el = document.querySelector("#c#co"); 
+el.src= 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+
+let el = document.querySelector("#c++co"); 
+el.src= 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+
+let el = document.querySelector("#sqlco"); 
+el.src= 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
