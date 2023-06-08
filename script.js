@@ -56,3 +56,6 @@ i.src = "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png";
 
 let j = document.querySelector("#githubco");
 j.src = "https://cdn-icons-png.flaticon.com/512/25/25231.png";
+
+let k= document.querySelector("#htmlco");
+k.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
