@@ -55,3 +55,19 @@ el.src=
 let el = document.querySelector("#jsonco"); 
 el.src= 
 "https://cdn-icons-png.flaticon.com/512/8297/8297373.png";
+
+let el = document.querySelector("#jsco"); 
+el.src= 
+"https://cdn-icons-png.flaticon.com/512/5968/5968292.png";
+
+let el = document.querySelector("#reactco"); 
+el.src= 
+"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png";
+
+let el = document.querySelector("#gitco"); 
+el.src= 
+"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png";
+
+let el = document.querySelector("#githubco"); 
+el.src= 
+"https://cdn-icons-png.flaticon.com/512/25/25231.png";
