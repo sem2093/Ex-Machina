@@ -14,7 +14,9 @@ color: #fff;
 
 }
 header {
-
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 main{
@@ -87,3 +89,10 @@ margin: 40px;
       width: 100px;
       height:100px;
 }
+
+ #selfportrait {
+  width: 400px;
+height: 400px;
+
+}
+
