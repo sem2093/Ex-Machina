@@ -63,3 +63,10 @@ img.ce {
 width: 100%; 
 height: 850px;
  }
+
+div.co {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
