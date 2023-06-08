@@ -27,3 +27,5 @@ document.getElementById("h2edu").innerHTML="Education";
 document.getElementById("h2co").innerHTML="Competencies";
 
 document.getElementById("h2ce").innerHTML="Certificates";
+
+let el = document.querySelector("  ")
