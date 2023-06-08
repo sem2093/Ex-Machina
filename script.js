@@ -33,7 +33,7 @@ a.src = "https://cdn-icons-png.flaticon.com/512/5968/5968242.png";
 let b= document.querySelector("#csharpco");
 b.src = "https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png";
 
-let c = document.querySelector("#c++co");
+let c = document.querySelector("#cppco");
 c.src = "https://cdn-icons-png.flaticon.com/512/6132/6132222.png";
 
 let d = document.querySelector("#sqlco");
