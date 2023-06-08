@@ -34,16 +34,24 @@ el.src=
 
 let el = document.querySelector("#cssco"); 
 el.src= 
-"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+"https://cdn-icons-png.flaticon.com/512/5968/5968242.png";
 
 let el = document.querySelector("#c#co"); 
 el.src= 
-"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+"https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png";
 
 let el = document.querySelector("#c++co"); 
 el.src= 
-"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+"https://cdn-icons-png.flaticon.com/512/6132/6132222.png";
 
 let el = document.querySelector("#sqlco"); 
 el.src= 
-"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+"https://static-00.iconduck.com/assets.00/sql-database-generic-icon-380x512-ez505zus.png";
+
+let el = document.querySelector("#pythonco"); 
+el.src= 
+"https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png";
+
+let el = document.querySelector("#jsonco"); 
+el.src= 
+"https://cdn-icons-png.flaticon.com/512/8297/8297373.png";
