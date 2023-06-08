@@ -77,4 +77,13 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
 }
-
+a.d {
+margin: 40px;
+      width: 100px;
+      height:100px;
+}
+img.e {
+margin: 40px;
+      width: 100px;
+      height:100px;
+}
