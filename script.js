@@ -1,4 +1,16 @@
+// This is a single-line comment
+/*
+This is a multi-line comment.
+It can span multiple lines.
+*/
+/*
+The following section of code 
+sets the text(innerHTML) of the 
+element. 
+document.getElementById("elementId").innerHTML="text"
+*/
 document.getElementById("h1").innerHTML="Steven Miller";
+
 document.getElementById("h2am").innerHTML="About me";
 
 document.getElementById("pam").innerHTML="Hi, my name is Steven Miller and Im a developer. Im a self learner and am both curious and driven to improve constantly.";
@@ -24,9 +36,10 @@ document.getElementById("h2edu").innerHTML="Education";
 document.getElementById("h2co").innerHTML="Competencies";
 
 document.getElementById("h2ce").innerHTML="Certificates";
-
-
-
+/*
+The following section of code 
+sets source(src) of the image(img)
+*/
 let a= document.querySelector("#cssco");
 a.src = "https://cdn-icons-png.flaticon.com/512/5968/5968242.png";
 
