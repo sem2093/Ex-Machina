@@ -10,8 +10,6 @@ element.
 document.getElementById("elementId").innerHTML="text"
 */
 
-document.getElementById("h2am").innerHTML="About me";
-
 document.getElementById("pam").innerHTML="Hi, my name is Steven Miller and Im a developer. Im a self learner and am both curious and driven to improve constantly.";
 
 document.getElementById("pc").innerHTML="Steven Miller 2023 All rights reserved";
