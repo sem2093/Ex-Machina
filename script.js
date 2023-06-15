@@ -99,6 +99,18 @@ var typed = new Typed(".auto-typeh2am", {
   backSpeed :300,
   loop :true
     })
+    var typed = new Typed(".auto-typeh3con", {  
+  strings :["Me"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+    var typed = new Typed(".auto-typeh3f", {  
+  strings :["Me"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
   //The following code is the Vanta.net background animation 
     VANTA.NET({
   el: "#animation-wrapper",
