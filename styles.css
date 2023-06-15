@@ -2,11 +2,7 @@ html {
   height: 100%;
   min-height: 100%;
 }       
-    
-iframe {
-  }
-
-#body {
+#animation-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -14,8 +10,14 @@ iframe {
   height: 100vh;
   z-index: -1;
 }
-color: #fff;
 
+#animation-wrapper canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#body {
+color: #fff;
 }
 header {
 display: flex;
