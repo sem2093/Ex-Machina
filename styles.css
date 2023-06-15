@@ -70,12 +70,10 @@ footer{
   font-size: 70px;
   font-weight: 600;
   }
-
-}
-h3{
-  text-align: center;
+ .container h3 {
+  font-size: 60px;
+  font-weight: 600;
   }
-
 
 p {
   text-align: center;
