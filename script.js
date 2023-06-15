@@ -108,6 +108,24 @@ var typed = new Typed(".auto-typeh2am", {
   backSpeed :300,
   loop :true
     })
+    var typed = new Typed(".auto-typepam", {  
+  strings :["A self learner.","Determined to constantly improve."],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+     var typed = new Typed(".auto-typepedu", {  
+  strings :["Graduated in 2012 from Alta Highschool in Sandy, UT.","Studied at Brigham Young University in Provo, UT."],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+     var typed = new Typed(".auto-typepex", {  
+  strings :["Master Fire Alarm Technician.","Customer Service Representative.","Seafood Processor"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
   //The following code is the Vanta.net background animation 
     VANTA.NET({
   el: "#animation-wrapper",
