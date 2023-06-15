@@ -61,3 +61,41 @@ j.src = "https://cdn-icons-png.flaticon.com/512/25/25231.png";
 
 let k= document.querySelector("#htmlco");
 k.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png";
+
+//The following code is type text animation. 
+var typed = new Typed(".auto-typeh1", {  
+  strings :["Steven","Miller","Developer"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+var typed = new Typed(".auto-typeh2am", {  
+  strings :["Me"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+    var typed = new Typed(".auto-typeh2edu", {  
+  strings :["Education"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+    var typed = new Typed(".auto-typeh2ex", {  
+  strings :["Experience"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+    var typed = new Typed(".auto-typeh2co", {  
+  strings :["Competencies"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
+    var typed = new Typed(".auto-typeh2ce", {  
+  strings :["Certificates"],    
+  typeSpeed :150,
+  backSpeed :300,
+  loop :true
+    })
