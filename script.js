@@ -9,7 +9,6 @@ sets the text(innerHTML) of the
 element. 
 document.getElementById("elementId").innerHTML="text"
 */
-document.getElementById("h1").innerHTML="Steven Miller";
 
 document.getElementById("h2am").innerHTML="About me";
 
