@@ -22,9 +22,6 @@ document.getElementById("pp").innerHTML="937-474-9664";
 
 document.getElementById("pem").innerHTML="sem2093@gmail.com";
 
-document.getElementById("h3con").innerHTML="Contact";
-
-document.getElementById("h3f").innerHTML="Follow";
 /*
 The following section of code 
 sets source(src) of the image(img)
