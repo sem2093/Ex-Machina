@@ -64,7 +64,7 @@ k.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_an
 
 //The following code is type text animation. 
 var typed = new Typed(".auto-typeh1", {  
-  strings :["Steven","Miller","Developer"],    
+  strings :[" Steven Miller"," a Developer"],    
   typeSpeed :150,
   backSpeed :300,
   loop :true
