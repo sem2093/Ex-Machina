@@ -57,68 +57,68 @@ k.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_an
 //The following code is type text animation. 
 var typed = new Typed(".auto-typeh1", {  
   strings :[" Steven Miller"," a Developer"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
 var typed = new Typed(".auto-typeh2am", {  
   strings :["Me"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh2edu", {  
   strings :["Education"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh2ex", {  
   strings :["Experience"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh2co", {  
   strings :["Competencies"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh2ce", {  
   strings :["Certificates"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh3con", {  
   strings :["Me"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typeh3f", {  
   strings :["Me"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
     var typed = new Typed(".auto-typepam", {  
   strings :["A self learner.","Determined to constantly improve."],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
      var typed = new Typed(".auto-typepedu", {  
   strings :["Graduated in 2012 from Alta Highschool in Sandy, UT.","Studied at Brigham Young University in Provo, UT."],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
      var typed = new Typed(".auto-typepex", {  
   strings :["Master Fire Alarm Technician.","Customer Service Representative.","Seafood Processor"],    
-  typeSpeed :150,
-  backSpeed :300,
+  typeSpeed :75,
+  backSpeed :75,
   loop :true
     })
   //The following code is the Vanta.net background animation 
