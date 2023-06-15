@@ -10,13 +10,8 @@ element.
 document.getElementById("elementId").innerHTML="text"
 */
 
-document.getElementById("pam").innerHTML=" Im a self learner who's determined to improve constantly.";
 
 document.getElementById("pc").innerHTML="Steven Miller 2023 All rights reserved";
-
-document.getElementById("pedu").innerHTML="I graduated from Alta highschool in Sandy UT in 2012. After highschool I went on to study at Brigham Young University in Provo Ut.";
-
-document.getElementById("pex").innerHTML="I have a well rounded work experience from being a customer service representative to a Master Fire Alarm Technician.";
 
 document.getElementById("pp").innerHTML="937-474-9664";
 
