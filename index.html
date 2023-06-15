@@ -4,7 +4,7 @@
 <title>Steven Miller</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body id="body">
 <header>
 <div class="container">
 <h1 id="h1">Hi,I'm<span class="auto-typeh1"></span></h1>
@@ -82,6 +82,22 @@
 </footer>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <script src="script.js"></script>
+<script src="three.r134.min.js"></script>
+<script src="vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x4aff3f,
+  backgroundColor: 0x0
+})
+</script>
 <!--
 <script src="CDN/library"></script>
 ex= <script src"https://teach.gemimo.com/bouncy.js"></script>
