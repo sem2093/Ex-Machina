@@ -24,17 +24,6 @@ body {
   height: 100% !important;
 }
 
-/* Rest of your CSS styles */
-
-
-
-
-
-
-
-
-
-
 
 
 header {
@@ -90,7 +79,7 @@ h3{
 
 p {
   text-align: center;
-  font-size: 25px;
+  font-size: 40px;
   }
 
 div.ce {
