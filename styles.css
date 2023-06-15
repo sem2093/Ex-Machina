@@ -75,6 +75,12 @@ footer{
   font-weight: 600;
   }
 
+ .container p {
+  font-size: 40px;
+  font-weight: 600;
+  }
+
+
 p {
   text-align: center;
   font-size: 40px;
