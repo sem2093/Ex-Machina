@@ -99,3 +99,16 @@ var typed = new Typed(".auto-typeh2am", {
   backSpeed :300,
   loop :true
     })
+  //The following code is the Vanta.net background animation 
+    VANTA.NET({
+  el: "#animation-wrapper",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x4aff3f,
+  backgroundColor: 0x0
+})
