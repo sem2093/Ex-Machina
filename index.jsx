@@ -7,7 +7,7 @@ const App = () => (
         <h2 id="h2am">About Me</h2>
       </div>
       <div className="container">
-        <p id="pam">I'm<span className="auto-typepam"></span></p>
+        <p id="pam">I'm a motivated self-leaner eager to master development.</p>
       </div>
     </div>
 );
