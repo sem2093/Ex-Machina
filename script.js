@@ -132,7 +132,6 @@ var typed = new Typed(".auto-typeh2am", {
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0xFFFFFF,
-  backgroundColor: 0x0,
-  points: 20.00,
-  spacing: 20.00
+  backgroundColor: 0x0
+  
 })
