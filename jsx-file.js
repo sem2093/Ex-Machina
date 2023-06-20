@@ -6,13 +6,6 @@ const getMessage = () => "Hello World";
 document.getElementById('op2').innerHTML = getMessage(); 
 
 
-const App = ({ name }) => {
-  return (
-    <h1>{name}</h1>
-  );
-};
+const getMessage = () => "Hello World";
+document.getElementById('app').innerHTML = getMessage(); 
 
-ReactDOM.render(
-  <App name="React Debug" />,
-  document.getElementById('app')
-);
