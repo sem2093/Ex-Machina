@@ -21,5 +21,15 @@ ReactDOM.render(
 ReactDOM.render( 
 <h2> About Me </h2>,
 document.getElementById("root")
-
   );
+
+const header (
+  <h2>Education</h2>
+);
+
+ReactDOM.render(
+  header,
+  document.getElementById("rootedu")
+  );
+
+
