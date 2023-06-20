@@ -1,6 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
 ReactDOM.render(
   <div data-aos="fade-in" id="am">
   <div class="container">
