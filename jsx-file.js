@@ -1,10 +1,2 @@
-const App = ({ name }) => {
-  return (
-    <h1>{name}</h1>
-  );
-};
-
-ReactDOM.render(
-  <App name="React Debug" />,
-  document.getElementById('app')
-);
+var input = 'const getMessage = () => "Hello World";';
+34	var output = Babel.transform(input, { presets: ['es2015'] }).code;
