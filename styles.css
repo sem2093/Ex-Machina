@@ -108,22 +108,23 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-div.f {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
+
+
+div.f{
+  display: table;
+  margin: 0 auto;
+  border-spacing: 100px;
 }
-a.d {
-margin: 40px;
-      width: 100px;
-      height:100px;
+
+a.d{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
-img.e {
-margin: 40px;
-      width: 100px;
-      height:100px;
+
+img.e{
+  max-width: 100%;
+  height: auto;
 }
 
  #selfportrait {
