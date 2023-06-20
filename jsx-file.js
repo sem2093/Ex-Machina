@@ -1,5 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
 import { jsx as _jsx } from "react/jsx-runtime";
 import { jsxs as _jsxs } from "react/jsx-runtime";
 ReactDOM.render( /*#__PURE__*/_jsxs("div", {
