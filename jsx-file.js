@@ -26,3 +26,4 @@ const App = () => /*#__PURE__*/_jsx("div", {
   })
 });
 ReactDOM.render( /*#__PURE__*/_jsx(App, {}), document.getElementById("amroot"));
+
