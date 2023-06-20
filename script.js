@@ -132,6 +132,9 @@ var typed = new Typed(".auto-typeh2am", {
   scale: 1.00,
   scaleMobile: 1.00,
   color: 0xFFFFFF,
-  backgroundColor: 0x0
-  
-})
+  backgroundColor: 0x0,
+});
+
+AOS.init({
+    duration:3000
+});
