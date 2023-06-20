@@ -11,7 +11,7 @@ document.getElementById("elementId").innerHTML="text"
 */
 
 
-document.getElementById("pc").innerHTML="Steven Miller 2023 All rights reserved";
+document.getElementById("pc").innerHTML=" &copy; Steven Miller 2023 All rights reserved";
 
 document.getElementById("pp").innerHTML="937-474-9664";
 
