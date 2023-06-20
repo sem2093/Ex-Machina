@@ -60,67 +60,67 @@ var typed = new Typed(".auto-typeh1", {
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
 var typed = new Typed(".auto-typeh2am", {  
   strings :["Me"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh2edu", {  
   strings :["Education"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh2ex", {  
   strings :["Experience"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh2co", {  
   strings :["Competencies"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh2ce", {  
   strings :["Certificates"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh3con", {  
   strings :["Me"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typeh3f", {  
   strings :["Me"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
     var typed = new Typed(".auto-typepam", {  
   strings :["A self learner.","Determined to constantly improve."],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
      var typed = new Typed(".auto-typepedu", {  
   strings :["Graduated in 2012 from Alta Highschool in Sandy, UT.","Studied at Brigham Young University in Provo, UT."],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
      var typed = new Typed(".auto-typepex", {  
   strings :["Master Fire Alarm Technician.","Customer Service Representative.","Seafood Processor"],    
   typeSpeed :50,
   backSpeed :25,
   loop :true
-    })
+    });
   //The following code is the Vanta.net background animation 
     VANTA.NET({
   el: "#animation-wrapper",
@@ -131,8 +131,10 @@ var typed = new Typed(".auto-typeh2am", {
   minWidth: 200.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0xFFFFFF,
+  color: 0xffffff,
   backgroundColor: 0x0,
+  points: 20.00,
+  spacing: 20.00
 });
 
 AOS.init({
