@@ -1,15 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const App = () => (
-    <div id="am">
-      <div className="container">
-        <h2 id="h2am">About Me</h2>
-      </div>
-      <div className="container">
-        <p id="pam">I'm a motivated self-leaner eager to master development.</p>
-      </div>
-    </div>
+ReactDOM.render(
+<h1>Hello World</h1>,
+document.getElementById("root")
 );
 
-ReactDOM.render(<App />, document.getElementById("amroot"));
