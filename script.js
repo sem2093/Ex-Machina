@@ -136,7 +136,7 @@ var typed = new Typed(".auto-typeh2am", {
   points: 20.00,
   spacing: 20.00
 });
-
+//the following code is for the animate on scroll feature.
 AOS.init({
     duration:3000
 });
