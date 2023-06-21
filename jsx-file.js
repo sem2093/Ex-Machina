@@ -21,19 +21,19 @@ ReactDOM.render(
 //react example from mimo
 
 ReactDOM.render( 
-<h2> About Me </h2>,
 
-document.getElementById("root")
-  );
-
-
-const edu = (
+<div>
   <div>
+    <h2>About Me</h2>
+    </div>
+    <div>
+      <p>Im a motivated self-learner constantly seeking to improve.</p>
+      </div>
   <div>
      <h2>Education</h2>
     </div>
     <div>
-     <p>I graduated from Alta High School in Sandy, UT in 2012</p>
+     <p>I graduated from Alta High School in Sandy, UT in 2012. After highschool I studied at Brigham Young University in Provo,Ut.</p>
   </div>
     <div>
     <h2>Experience</h2>
@@ -41,13 +41,15 @@ const edu = (
     <div>
   <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
     </div>
-  </div>
-);
+ </div>,
 
-ReactDOM.render(
-  edu,
-  document.getElementById("rootedu")
-);
+document.getElementById("root")
+  );
+
+
+
+
+
 
 
   
