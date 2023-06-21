@@ -31,13 +31,15 @@ const edup = <p>I graduated from Alta High School in Sandy, UT in 2012</p>;
 const edu = (
   <div>
   <div>
-    {eduh}
+     <h2>Education</h2>
     </div>
     <div>
-    {edup}
+     <p>I graduated from Alta High School in Sandy, UT in 2012</p>
   </div>
     <div>
     <h2>Experience</h2>
+    </div>
+    <div>
   <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
     </div>
   </div>
