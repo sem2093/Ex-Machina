@@ -30,7 +30,7 @@ const edup = <p>I graduated from Alta High School in Sandy, UT in 2012</p>;
 const edu = (
   <div>
     {eduh}
-    <br>
+    <br />
     {edup}
   </div>
 );
