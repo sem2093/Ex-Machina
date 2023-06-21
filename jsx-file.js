@@ -36,6 +36,10 @@ const edu = (
     <div>
     {edup}
   </div>
+    <div>
+    <h2>Experience</h2>
+  <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
+    </div>
   </div>
 );
 
@@ -44,20 +48,7 @@ ReactDOM.render(
   document.getElementById("rootedu")
 );
 
-const ex = () => { 
-  return(
-    <div>
-    <h2>Experience</h2>
-  <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
-    </div>
-  );
-}
 
-ReactDOM.render(
-  <ex />,
-  document.getElementById("rootex")
-);
-  
   
 
 
