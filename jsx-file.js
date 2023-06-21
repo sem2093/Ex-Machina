@@ -23,5 +23,21 @@ ReactDOM.render(
 document.getElementById("root")
   );
 
+const eduh =  <h2>Education</h2> ;
+const edup = <p>I graduated from Alta High School in Sandy, UT in 2012 </p> ;
+
+const edu = (
+  <div>
+  {eduh}
+{edup} 
+</div>
+  );
+
+ReactDOM.render (
+  edu,
+  document.getElementById("rootedu")
+  );
+  
+  
 
 
