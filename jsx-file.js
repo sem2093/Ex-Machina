@@ -2,9 +2,10 @@
 var input = 'const getMessage = () => "Hello World";';
 var output = Babel.transform(input, { presets: ['es2015'] }).code;
 
-//second hello world 
+// hello world 
 const getMessage = () => "Hello World";
-document.getElementById('op2').innerHTML = getMessage(); 
+document.getElementById('output').innerHTML = getMessage(); 
+
 
 //react example from jsanywhere
 const App = ({ name }) => {
