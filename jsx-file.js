@@ -22,8 +22,6 @@ ReactDOM.render(
 
 ReactDOM.render( 
 <h2> About Me </h2>,
-<h2>Education </h2>,
-<h2> Experience </h2>,
 
 document.getElementById("root")
   );
