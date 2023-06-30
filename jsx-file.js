@@ -13,7 +13,7 @@ ReactDOM.render(
    <h1>Hi I'm Steven Miller & I'm a Developer.</h1>
   </div>
   <div>
-<img src={require('C64EFC3C-ACBA-4CB6-BC6F-4D4D34F6236C.png')} alt={"logo"}/>
+<img src={require('./C64EFC3C-ACBA-4CB6-BC6F-4D4D34F6236C.png')} alt={"logo"}/>
 </div>
 </div>,
   document.getElementById("header")
