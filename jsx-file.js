@@ -6,18 +6,6 @@ var output = Babel.transform(input, { presets: ['es2015'] }).code;
 const getMessage = () => "Hello World";
 document.getElementById('output').innerHTML = getMessage(); 
 
-
-//react example from jsanywhere
-const App = ({ name }) => {
-  return (
-    <h1>{name}</h1>
-  );
-};
-
-ReactDOM.render(
-  <App name="React Debug" />,
-  document.getElementById('app')
-);
 //react example from mimo
 ReactDOM.render( 
 <div>
