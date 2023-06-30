@@ -4,7 +4,7 @@ This is a multi-line comment.
 It can span multiple lines.
 */
 
-alert ("Click Okay if you are 18 or older")
+alert ("WARNING! Viewer discretion is advised.") 
 /*
 The following section of code 
 sets source(src) of the image(img)
