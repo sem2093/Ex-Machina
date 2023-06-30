@@ -3,8 +3,8 @@
 This is a multi-line comment.
 It can span multiple lines.
 */
-/*
 
+alert ("Click Okay if you are 18 or older")
 /*
 The following section of code 
 sets source(src) of the image(img)
