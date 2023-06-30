@@ -56,9 +56,6 @@ ReactDOM.render(
     <div>
    <p>937-474-9664</p>
   </div>
-<div>
-   <p>&copy; Steve Miller 2023. </p>
-  </div>
   </div>,
   document.getElementById("footer")
 );
