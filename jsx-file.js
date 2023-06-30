@@ -4,7 +4,7 @@ var output = Babel.transform(input, { presets: ['es2015'] }).code;
 
 // hello world 
 const getMessage = () => "Hello World";
-document.getElementById('output').innerHTML = getMessage(); 
+ 
 
 //react example from mimo
 
