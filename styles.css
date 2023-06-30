@@ -51,6 +51,12 @@ align-items: center;
   font-weight: 600;
   }
 
+iframe {
+margin: 20px;
+padding: 20px;
+width: 61%;
+height: 850px;
+}
 
 
 
