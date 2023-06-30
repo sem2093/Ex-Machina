@@ -35,7 +35,16 @@ ReactDOM.render(
     <div>
   <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
     </div>
- </div>,
+    <div>
+      <h2>Certificates</h2>
+      </div>
+      <iframe src="
+      
+    <iframe src="
+    
+    <iframe src=" 
+ </div>
+
 document.getElementById("main")
   );
   
