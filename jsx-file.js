@@ -48,7 +48,7 @@ document.getElementById("main")
 ReactDOM.render( 
   <div>
     <div>
-   <h3>Contact:</h3>
+   <h3>Contact</h3>
   </div>
     <div>
    <p>sem2093@gmail.com</p>
@@ -56,6 +56,9 @@ ReactDOM.render(
     <div>
    <p>937-474-9664</p>
   </div>
+  <div>
+    <h3>Network</h3>
+    </div>
   </div>,
   document.getElementById("footer")
 );
