@@ -38,7 +38,7 @@ ReactDOM.render(
     <div>
       <h2>Certificates</h2>
       </div>
- </div>
+ </div>,
 
 document.getElementById("main")
   );
