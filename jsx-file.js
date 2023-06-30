@@ -7,14 +7,15 @@ const getMessage = () => "Hello World";
 document.getElementById('output').innerHTML = getMessage(); 
 
 //react example from mimo
+
 ReactDOM.render( 
 <div>
    <h1>Hi I'm Steven Miller & I'm a Developer.</h1>
   </div>,
   document.getElementById("header")
 );
-ReactDOM.render( 
 
+ReactDOM.render( 
 <div>
   <div>
     <h2>About Me</h2>
@@ -35,9 +36,9 @@ ReactDOM.render(
   <p> Ive worked as a Master Fire Alarm Technician, a Customer Service Representative and a Seafood Processor.</p>
     </div>
  </div>,
-
 document.getElementById("main")
   );
+  
 ReactDOM.render( 
   <div>
     <div>
