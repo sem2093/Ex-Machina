@@ -19,7 +19,12 @@ ReactDOM.render(
   document.getElementById('app')
 );
 //react example from mimo
-
+ReactDOM.render( 
+<div>
+   <h1>Hi I'm Steven Miller & I'm a Developer.</h1>
+  </div>,
+  document.getElementById("header")
+);
 ReactDOM.render( 
 
 <div>
@@ -43,9 +48,25 @@ ReactDOM.render(
     </div>
  </div>,
 
-document.getElementById("root")
+document.getElementById("main")
   );
-
+ReactDOM.render( 
+  <div>
+    <div>
+   <h3>Contact:</h3>
+  </div>
+    <div>
+   <p>sem2093@gmail.com</p>
+  </div>
+    <div>
+   <p>937-474-9664</p>
+  </div>
+<div>
+   <p>&copy; Steve Miller 2023. </p>
+  </div>
+  </div>,
+  document.getElementById("footer")
+);
 
 
 
