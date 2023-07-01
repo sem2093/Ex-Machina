@@ -164,5 +164,53 @@ animation-name: movearound;
 100% {transform: translateY(-900px);}
 }
 
+#cloudone {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: hone;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 
+}
+#cloudtwo {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+#cloudthree {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: hone;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+#cloudfour {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
 
