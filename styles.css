@@ -89,7 +89,7 @@ height:100px;
   margin: 20px;
 padding: 20px;
 animation-name: imagesize;
-	animation-duration: 10s;
+	animation-duration: 5s;
 	animation-timing-function: ease; 
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
