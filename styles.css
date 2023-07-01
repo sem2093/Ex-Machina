@@ -33,6 +33,7 @@ align-items: center;
   }
     
    h1 {
+    opacity: 0.5;
   font-size: 60px;
   font-weight: 600;
   padding: 50px;
@@ -51,6 +52,7 @@ align-items: center;
 		
 		
   h2 {
+    opacity: 0.5;
 			animation-name: movearound;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -62,6 +64,7 @@ align-items: center;
   }
   
  h3 {
+  opacity: 0.5;
 		animation-name: movearound;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -73,6 +76,7 @@ align-items: center;
   }
 
  p {
+  opacity: 0.5;
   font-size: 40px;
   font-weight: 600;
   padding: 50px;
@@ -104,6 +108,12 @@ animation-name: movearound;
 width: 200px;
 height:300px;
 opacity: 0.5;
+animation-name: hone;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 #nw {
