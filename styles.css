@@ -8,18 +8,15 @@ body {
   position: relative;
   animation-name: colorchange;
 	animation-duration: 5s;
-	animation-timing-function: ease; 
+	animation-timing-function: linear; 
 	animation-delay:0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
 
 @keyframes colorchange {
-	0% {background-color: red; color:white;}
- 25% {background-color:white; color:black;}
-	50% {background-color: black; color:white;}
-	75% {background-color: green; color:white;}
-	100% {background-color: blue; color:white;}
+ 0% {background-color:white; color:black;}
+	100% {background-color: black; color:white;}
 }
 
 
