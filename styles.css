@@ -164,6 +164,13 @@ animation-name: movearound;
 100% {transform: translateY(-100vh);}
 }
 
+.cloud {
+  
+  
+  
+  }
+
+
 #cloudone {
 	opacity: 0.5;
 	width:100vw;
