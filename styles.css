@@ -141,6 +141,7 @@ animation-name: movearound;
 	animation-direction: alternate;
   position: absolute;
   top: 20%;
+  max-width: 100%;
 }
 
 #logo {
@@ -155,6 +156,7 @@ animation-name: hone;
 	animation-direction: alternate;
   position: absolute;
   top:20px;
+  max-width: 100%;
 }
 
 #nw {
@@ -163,6 +165,7 @@ height:100px;
 opacity: 0.5;
 position: absolute;
 bottom:20px;
+max-width: 100%;
 }
 .imgcert {
   opacity: 0.5;
@@ -179,6 +182,7 @@ animation-name: movearound;
   position: absolute;
   top:30px;
   left:30px;
+  max-width: 100%;
 }
 
 @keyframes movearound  { 
@@ -197,6 +201,7 @@ animation-name: hone;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 
 }
 #cloudtwo {
@@ -210,6 +215,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 
 }
 #cloudthree {
@@ -223,7 +229,7 @@ animation-name: hone;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-
+max-width: 100%;
 }
 
 #cloudfour {
@@ -237,7 +243,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-
+max-width: 100%;
 }
 
 #cloudfive {
@@ -251,6 +257,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 #cloudsix{
 	opacity: 0.5;
@@ -263,6 +270,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 #cloudseven {
 	opacity: 0.5;
@@ -275,6 +283,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 
 #cloudeight {
@@ -288,6 +297,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 #cloudnine {
 	opacity: 0.5;
@@ -300,6 +310,7 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 
 #cloudten {
@@ -313,5 +324,6 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
+  max-width: 100%;
 }
 
