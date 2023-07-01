@@ -131,8 +131,6 @@ footer{
 
 iframe {
 opacity: 0.5;
-margin: 20vmin;
-padding: 20vmin;
 width: 61vw;
 height: 60vh;
 animation-name: movearound;
@@ -171,8 +169,6 @@ max-width: 100%;
 }
 .imgcert {
   opacity: 0.5;
-  margin: 5vmin;
-padding: 5vmin;
 animation-name: movearound;
 	animation-duration: 5s;
 	animation-timing-function: linear; 
