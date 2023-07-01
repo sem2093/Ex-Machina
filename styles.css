@@ -46,14 +46,19 @@ align-items: center;
   font-weight: 600;
   padding: 50px;
   margin: 50px;
-		animation-name: movearound;
+		animation-name: hone;
 	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
-	animation-direction: normal;
+	animation-direction: alternate;
   }
-  
+  @keyframes hone  { 
+0% {transform: translateY(0);}
+100% {transform: translateY(900px);}
+}
+		
+		
   h2 {
 			animation-name: movearound;
 	animation-duration: 5s;
@@ -133,6 +138,7 @@ animation-name: imagesize;
 }
 100% {transform: translateY(0px)translateX(0px);}
 }
+
 
 
 
