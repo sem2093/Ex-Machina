@@ -1,5 +1,5 @@
 html, body {
-  height: 100%;
+  height: 100vh;
   font-size: 16px;
 }
   
@@ -52,7 +52,7 @@ footer{
   }
 
   div {
-    width: 100% ;
+    width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,8 +64,8 @@ footer{
     opacity: 0.5;
   font-size: 2rem;
   font-weight: 600;
-  padding: 50px;
-  margin: 50px;
+  padding: 10vw;
+  margin: 10vh;
 		animation-name: hone;
 	animation-duration: 5s;
 	animation-timing-function: linear;
@@ -73,12 +73,12 @@ footer{
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-  top: 20%;
-  left:20%;
+  top: 20vh;
+  left:20vw;
   }
   @keyframes hone  { 
 0% {transform: translateY(0);}
-100% {transform: translateY(900px);}
+100% {transform: translateY(100vh);}
 }
 		
 		
@@ -93,8 +93,8 @@ footer{
   font-size: 2rem;
   font-weight: 600;
   position: absolute;
-  top: 20%;
-  right:20%;
+  top: 20vh;
+  right:20vw;
   }
   
  h3 {
@@ -108,16 +108,16 @@ footer{
   font-size: 2rem;
   font-weight: 600;
   position: absolute;
-  bottom: 20% ;
-  left: 20%;
+  bottom: 20vh;
+  left: 20vw;
   }
 
  p {
   opacity: 0.5;
   font-size: 1rem;
   font-weight: 600;
-  padding: 50px;
-  margin: 50px;
+  padding: 10vmin;
+  margin: 10vmin;
   text-align: center;
 		animation-name: movearound;
 	animation-duration: 10s;
@@ -126,15 +126,15 @@ footer{
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-  top:30%;
+  top:30vh;
   }
 
 iframe {
 opacity: 0.5;
-margin: 20px;
-padding: 20px;
-width: 61%;
-height: 850px;
+margin: 20vmin;
+padding: 20vmin;
+width: 61vw;
+height: 60vh;
 animation-name: movearound;
 	animation-duration: 7s;
 	animation-timing-function: linear;
@@ -142,13 +142,13 @@ animation-name: movearound;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-  top: 20%;
+  top: 20vh;
   max-width: 100%;
 }
 
 #logo {
-width: 100px;
-height:150px;
+width: 20vw;
+height: 20vh;
 opacity: 0.5;
 animation-name: hone;
 	animation-duration: 8s;
@@ -157,45 +157,45 @@ animation-name: hone;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
   position: absolute;
-  top:20px;
+  top:20vh;
   max-width: 100%;
 }
 
 #nw {
-width: 100px;
-height:100px;
+width: 20vw;
+height:20vh;
 opacity: 0.5;
 position: absolute;
-bottom:20px;
+bottom:20vh;
 max-width: 100%;
 }
 .imgcert {
   opacity: 0.5;
-  margin: 20px;
-padding: 20px;
+  margin: 5vmin;
+padding: 5vmin;
 animation-name: movearound;
 	animation-duration: 5s;
 	animation-timing-function: linear; 
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  width:70%;
-  height:550px;
+  width:70vw;
+  height:70vh;
   position: absolute;
-  top:30px;
-  left:30px;
+  top:30vh;
+  left:30vw;
   max-width: 100%;
 }
 
 @keyframes movearound  { 
 0% {transform: translateY(0);}
-100% {transform: translateY(-900px);}
+100% {transform: translateY(-100vh);}
 }
 
 #cloudone {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: hone;
 	animation-duration: 4s;
 	animation-timing-function: linear;
@@ -208,8 +208,8 @@ animation-name: hone;
 }
 #cloudtwo {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 6s;
 	animation-timing-function: linear;
@@ -222,8 +222,8 @@ animation-name: movearound;
 }
 #cloudthree {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: hone;
 	animation-duration: 8s;
 	animation-timing-function: linear;
@@ -236,8 +236,8 @@ max-width: 100%;
 
 #cloudfour {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -250,8 +250,8 @@ max-width: 100%;
 
 #cloudfive {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -263,8 +263,8 @@ animation-name: movearound;
 }
 #cloudsix{
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -276,8 +276,8 @@ animation-name: movearound;
 }
 #cloudseven {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -290,8 +290,8 @@ animation-name: movearound;
 
 #cloudeight {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -303,8 +303,8 @@ animation-name: movearound;
 }
 #cloudnine {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
@@ -317,8 +317,8 @@ animation-name: movearound;
 
 #cloudten {
 	opacity: 0.5;
-	width:100%;
-	height:700px;
+	width:100vw;
+	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
