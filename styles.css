@@ -1,5 +1,6 @@
 html, body {
   height: 100%;
+  font-size: 16px;
 }
   
 body {
@@ -10,6 +11,7 @@ body {
   background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 header {
@@ -60,7 +62,7 @@ footer{
     
    h1 {
     opacity: 0.5;
-  font-size: 60px;
+  font-size: 2em;
   font-weight: 600;
   padding: 50px;
   margin: 50px;
@@ -88,7 +90,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  font-size: 70px;
+  font-size: 2em;
   font-weight: 600;
   position: absolute;
   top: 20%;
@@ -103,7 +105,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  font-size: 60px;
+  font-size: 2em;
   font-weight: 600;
   position: absolute;
   bottom: 20% ;
@@ -112,7 +114,7 @@ footer{
 
  p {
   opacity: 0.5;
-  font-size: 40px;
+  font-size: 1em;
   font-weight: 600;
   padding: 50px;
   margin: 50px;
