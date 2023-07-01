@@ -6,9 +6,20 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  color: white;
-  background-color: black;
+  animation-name: colorchange;
+	animation-duration: 5s;
+	animation-timing-function: ease; 
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
 }
+
+@keyframes colorchange {
+	0% {background-color: red; color:white;}
+  25% {background-color:white; color:black;}
+	50% {background-color: black; color:white;}}
+	100% {background-color: blue; color:white;}
+}
+
 
 header {
 display: flex;
