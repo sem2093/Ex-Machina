@@ -54,7 +54,7 @@ align-items: center;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
-	animation-direction: normal;
+	animation-direction: alternate;
   font-size: 70px;
   font-weight: 600;
   }
@@ -65,7 +65,7 @@ align-items: center;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
-	animation-direction: normal;
+	animation-direction: alternate;
   font-size: 60px;
   font-weight: 600;
   }
@@ -81,7 +81,7 @@ align-items: center;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
-	animation-direction: normal;
+	animation-direction: alternate;
   }
 
 iframe {
@@ -105,7 +105,7 @@ height:100px;
 padding: 20px;
 animation-name: imagesize;
 	animation-duration: 5s;
-	animation-timing-function: ease; 
+	animation-timing-function: linear; 
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
