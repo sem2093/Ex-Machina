@@ -125,20 +125,14 @@ opacity: 0.5;
   opacity: 0.5;
   margin: 20px;
 padding: 20px;
-animation-name: imagesize;
+animation-name: movearound;
 	animation-duration: 5s;
 	animation-timing-function: linear; 
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-}
-
-@keyframes imagesize {
-  0% {width: 50%; height: 300px;}
-	25% {width: 70%; height: 550px;}
-	50% {width: 80%; height: 700px;}
-	75% {width: 85%; height: 780px;}
-	100% {width: 90%; height: 850px;}
+  width:70%;
+  height:550px;
 }
 
 @keyframes movearound  { 
