@@ -110,7 +110,7 @@ max-width: 100%;
 
 #cloudone {
 animation-name: hone;
-	animation-duration: 4s;
+	animation-duration: 1s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -118,7 +118,7 @@ animation-name: hone;
 }
 #cloudtwo {
 animation-name: movearound;
-	animation-duration: 6s;
+	animation-duration: 2s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -126,7 +126,7 @@ animation-name: movearound;
 }
 #cloudthree {
 animation-name: hone;
-	animation-duration: 8s;
+	animation-duration: 3s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -135,7 +135,7 @@ animation-name: hone;
 
 #cloudfour {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 4s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -144,7 +144,7 @@ animation-name: movearound;
 
 #cloudfive {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 5s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -152,7 +152,7 @@ animation-name: movearound;
 }
 #cloudsix{
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 6s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -160,7 +160,7 @@ animation-name: movearound;
 }
 #cloudseven {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 7s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -169,7 +169,7 @@ animation-name: movearound;
 
 #cloudeight {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 8s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -177,7 +177,7 @@ animation-name: movearound;
 }
 #cloudnine {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 9s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -194,7 +194,7 @@ animation-name: movearound;
 }
 #cloudeleven {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 11s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -202,7 +202,7 @@ animation-name: movearound;
 }
 #cloudtwelve {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 12s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -210,7 +210,7 @@ animation-name: movearound;
 }
 #cloudthirteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 13s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -218,7 +218,7 @@ animation-name: movearound;
 }
 #cloudfourteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 14s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -226,7 +226,7 @@ animation-name: movearound;
 }
 #cloudfifteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 15s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -234,7 +234,7 @@ animation-name: movearound;
 }
 #cloudsixteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 16s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -242,7 +242,7 @@ animation-name: movearound;
 }
 #cloudseventeen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 17s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -250,7 +250,7 @@ animation-name: movearound;
 }
 #cloudeighteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 18s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -258,7 +258,7 @@ animation-name: movearound;
 }
 #cloudnineteen {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 19s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -266,7 +266,7 @@ animation-name: movearound;
 }
 #cloudtwenty {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
