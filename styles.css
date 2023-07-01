@@ -214,3 +214,72 @@ animation-name: movearound;
 
 }
 
+#cloudfive {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#cloudsix{
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#cloudseven {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#cloudeight {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#cloudnine {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+#cloudten {
+	opacity: 0.5;
+	width:100%;
+	height:700px;
+animation-name: movearound;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
