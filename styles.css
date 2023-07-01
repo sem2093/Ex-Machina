@@ -2,8 +2,7 @@ html, body {
   height: 100%;
 }
 
-  opacity: 0.5;
-
+  
 body {
   margin: 0;
   padding: 0;
@@ -12,16 +11,41 @@ body {
 }
 
 header {
+background-color: rgba(0, 0, 0, 0.5);
 display: flex;
 flex-direction: column;
 align-items: center;
+animation-name: hone;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 
 main{
+opacity: 0.5;
+background-color: rgba(0, 0, 0, 0.5);
 display: flex;
 flex-direction: column;
 align-items: center;
+animation-name: movearound;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
+footer{
+    opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation-name: hone;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
 
   div {
     width: 100% ;
