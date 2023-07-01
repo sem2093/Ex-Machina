@@ -23,7 +23,6 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
 }
 
 main{
@@ -38,7 +37,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
 }
 footer{
     opacity: 0.5;
@@ -49,7 +47,6 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   }
 
   div {
