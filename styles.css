@@ -6,19 +6,8 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
-  animation-name: colorchange;
-	animation-duration: 5s;
-	animation-timing-function: linear; 
-	animation-delay:0s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
+  color:rgba(0, 0, 0, 0.5);
 }
-
-@keyframes colorchange {
- 0% {background-color:white; color:black;}
-	100% {background-color: black; color:white;}
-}
-
 
 header {
 display: flex;
