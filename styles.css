@@ -6,7 +6,6 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  position: relative;
   color:rgba(0, 0, 0, 0.5);
   background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg");
   background-repeat: no-repeat;
