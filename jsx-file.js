@@ -37,9 +37,6 @@ ReactDOM.render(
     <div>
       <h2>Certificates</h2>
       </div>
-       <iframe src="JavaScriptcertificate.pdf"></iframe>
-      <iframe src="HTML certification .pdf"></iframe>
-      <iframe src="SQLcertificate.pdf"></iframe>
  </div>,
 
 document.getElementById("main")
