@@ -62,7 +62,7 @@ footer{
     
    h1 {
     opacity: 0.5;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 600;
   padding: 50px;
   margin: 50px;
@@ -90,7 +90,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 600;
   position: absolute;
   top: 20%;
@@ -105,7 +105,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: 600;
   position: absolute;
   bottom: 20% ;
@@ -114,7 +114,7 @@ footer{
 
  p {
   opacity: 0.5;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 600;
   padding: 50px;
   margin: 50px;
