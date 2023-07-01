@@ -1,7 +1,6 @@
 html, body {
   height: 100%;
 }
-https://images.pexels.com/photos/19670/pexels-photo.jpg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-19670.jpg&fm=jpg
   
 body {
   margin: 0;
@@ -24,6 +23,7 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
 main{
@@ -38,6 +38,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 footer{
     opacity: 0.5;
@@ -48,6 +49,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
   }
 
   div {
@@ -57,6 +59,7 @@ footer{
   align-items: center;
   justify-content: center;
    text-align: center;
+  position: absolute;
   }
     
    h1 {
@@ -71,6 +74,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
   }
   @keyframes hone  { 
 0% {transform: translateY(0);}
@@ -88,6 +92,7 @@ footer{
 	animation-direction: alternate;
   font-size: 70px;
   font-weight: 600;
+  position: absolute;
   }
   
  h3 {
@@ -100,6 +105,7 @@ footer{
 	animation-direction: alternate;
   font-size: 60px;
   font-weight: 600;
+  position: absolute;
   }
 
  p {
@@ -115,6 +121,7 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
   }
 
 iframe {
@@ -129,6 +136,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
 #logo {
@@ -141,12 +149,14 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
 #nw {
 width: 100px;
 height:100px;
 opacity: 0.5;
+position: absolute;
 }
 .imgcert {
   opacity: 0.5;
@@ -160,6 +170,7 @@ animation-name: movearound;
 	animation-direction: alternate;
   width:70%;
   height:550px;
+  position: absolute;
 }
 
 @keyframes movearound  { 
@@ -177,6 +188,7 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 
 }
 #cloudtwo {
@@ -189,6 +201,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 
 }
 #cloudthree {
@@ -201,6 +214,7 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 
 }
 
@@ -214,6 +228,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 
 }
 
@@ -227,6 +242,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 #cloudsix{
 	opacity: 0.5;
@@ -238,6 +254,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 #cloudseven {
 	opacity: 0.5;
@@ -249,6 +266,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
 #cloudeight {
@@ -261,6 +279,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 #cloudnine {
 	opacity: 0.5;
@@ -272,6 +291,7 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
 #cloudten {
@@ -284,5 +304,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+  position: absolute;
 }
 
