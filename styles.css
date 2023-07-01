@@ -120,14 +120,9 @@ animation-name: imagesize;
 }
 
 @keyframes movearound  { 
-0% {transform: translateY(0)translateX(0);}
-25% {transform: translateY(100px)translateX(0);}
-50% {transform: translateY(100px)translateX(100px);}
-75% {transform: translateY(0px)translateX(100px);}
+0% {transform: translateY(0);}
+100% {transform: translateY(-900px);}
 }
-100% {transform: translateY(0px)translateX(0px);}
-}
-
 
 
 
