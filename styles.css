@@ -165,136 +165,96 @@ animation-name: movearound;
 }
 
 .cloud {
-  
-  
-  
+  opacity: 0.5;
+  width:100vw;
+	height:40vh;
+  max-width: 100%;
+  position: absolute;
   }
 
 
 #cloudone {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: hone;
 	animation-duration: 4s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
-
 }
 #cloudtwo {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 6s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
-
 }
 #cloudthree {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: hone;
 	animation-duration: 8s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-max-width: 100%;
 }
 
 #cloudfour {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-max-width: 100%;
 }
 
 #cloudfive {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 #cloudsix{
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 #cloudseven {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 
 #cloudeight {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 #cloudnine {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 
 #cloudten {
-	opacity: 0.5;
-	width:100vw;
-	height:40vh;
 animation-name: movearound;
 	animation-duration: 10s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  max-width: 100%;
 }
 
