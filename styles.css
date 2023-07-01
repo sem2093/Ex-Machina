@@ -72,9 +72,6 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
-  top: 20vh;
-  left:20vw;
   }
   @keyframes hone  { 
 0% {transform: translateY(0);}
@@ -92,9 +89,6 @@ footer{
 	animation-direction: alternate;
   font-size: 2rem;
   font-weight: 600;
-  position: absolute;
-  top: 20vh;
-  right:20vw;
   }
   
  h3 {
@@ -107,9 +101,6 @@ footer{
 	animation-direction: alternate;
   font-size: 2rem;
   font-weight: 600;
-  position: absolute;
-  bottom: 20vh;
-  left: 20vw;
   }
 
  p {
@@ -125,8 +116,6 @@ footer{
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
-  top:30vh;
   }
 
 iframe {
@@ -139,8 +128,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
-  top: 20vh;
   max-width: 100%;
 }
 
@@ -154,8 +141,6 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
-  top:20vh;
   max-width: 100%;
 }
 
@@ -163,8 +148,6 @@ animation-name: hone;
 width: 20vw;
 height:20vh;
 opacity: 0.5;
-position: absolute;
-bottom:20vh;
 max-width: 100%;
 }
 .imgcert {
@@ -177,9 +160,6 @@ animation-name: movearound;
 	animation-direction: alternate;
   width:70vw;
   height:70vh;
-  position: absolute;
-  top:30vh;
-  left:30vw;
   max-width: 100%;
 }
 
@@ -198,7 +178,6 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 
 }
@@ -212,7 +191,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 
 }
@@ -226,7 +204,6 @@ animation-name: hone;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
 max-width: 100%;
 }
 
@@ -240,7 +217,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
 max-width: 100%;
 }
 
@@ -254,7 +230,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 #cloudsix{
@@ -267,7 +242,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 #cloudseven {
@@ -280,7 +254,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 
@@ -294,7 +267,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 #cloudnine {
@@ -307,7 +279,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 
@@ -321,7 +292,6 @@ animation-name: movearound;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-  position: absolute;
   max-width: 100%;
 }
 
