@@ -92,6 +92,8 @@ img.cert {
   width:70vw;
   height:30vh;
   max-width: 100%;
+  position:relative;
+  z-index: 99;
 }
 img.certtall {
   margin:5vmin;
@@ -99,7 +101,8 @@ img.certtall {
   opacity: 0.5;
   width:70vw;
   height:50vh;
-  
+  position: relative;
+  z-index: 99;
   }
 div#certcon {
   width:100vw;
@@ -128,6 +131,7 @@ img.cloud {
 	height:40vh;
   max-width: 100%;
   position: absolute;
+  z-index: 1;
   }
 
 
