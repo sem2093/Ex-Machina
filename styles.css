@@ -85,12 +85,25 @@ opacity: 0.5;
 max-width: 100%;
 }
 
-.cert {
+img.cert {
   opacity: 0.5;
   width:70vw;
   height:30vh;
   max-width: 100%;
 }
+
+div#certcon {
+  width:100vw;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+  }
+  
+div#cloudcon {
+ width: 100vw;
+  align-items:center;
+  }
 
 @keyframes movearound  { 
 0% {transform: translateY(0);}
@@ -100,7 +113,7 @@ max-width: 100%;
 0% {transform: translateY(0);}
 100% {transform: translateY(100vh);}
 }
-.cloud {
+img.cloud {
   opacity: 0.5;
   width:100vw;
 	height:40vh;
