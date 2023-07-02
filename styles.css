@@ -24,6 +24,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 text-align: center;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 main{
@@ -47,7 +48,6 @@ footer{
   }
     
    h1 {
-    opacity: 0.5;
   font-size: 2rem;
   font-weight: 600;
   }
@@ -55,44 +55,20 @@ footer{
 		
 		
   h2 {
-    opacity: 0.5;
   font-size: 2rem;
   font-weight: 600;
   }
   
  h3 {
-  opacity: 0.5;
   font-size: 2rem;
   font-weight: 600;
   }
 
  p {
-  opacity: 0.5;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
   }
-
-iframe {
-opacity: 0.5;
-width: 61vw;
-height: 60vh;
-  max-width: 100%;
-}
-
-#logo {
-width: 10vw;
-height: 10vh;
-opacity: 0.5;
-  max-width: 100%;
-}
-
-#nw {
-width: 5vw;
-height:5vh;
-opacity: 0.5;
-max-width: 100%;
-}
 
 img.cert {
   margin:5vmin;
@@ -103,6 +79,7 @@ img.cert {
   max-width: 100%;
   position:relative;
   z-index: 99;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 img.certtall {
   margin:5vmin;
@@ -112,6 +89,7 @@ img.certtall {
   height:50vh;
   position: relative;
   z-index: 99;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   }
 div#certcon {
   width:100vw;
