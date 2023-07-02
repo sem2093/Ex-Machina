@@ -91,7 +91,12 @@ img.cert {
   height:30vh;
   max-width: 100%;
 }
-
+img.certtall {
+  opacity: 0.5;
+  width:50vw;
+  height:50vh;
+  
+  }
 div#certcon {
   width:100vw;
   display:flex;
