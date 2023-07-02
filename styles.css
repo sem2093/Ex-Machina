@@ -6,8 +6,7 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-  color:rgba(0, 0, 0, 0.5);
-  
+
 }
 
 div#headercon {
@@ -25,6 +24,8 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+position:relative;
+z-index:99;
 }
 
 main{
@@ -50,6 +51,7 @@ footer{
    h1 {
   font-size: 2rem;
   font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
  
 		
@@ -57,17 +59,20 @@ footer{
   h2 {
   font-size: 2rem;
   font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
  h3 {
   font-size: 2rem;
   font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
  p {
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
 img.cert {
