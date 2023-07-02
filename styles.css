@@ -26,6 +26,7 @@ text-align: center;
 box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 position:relative;
 z-index:99;
+opacity: 0.5;
 }
 
 main{
@@ -84,7 +85,7 @@ img.cert {
   max-width: 100%;
   position:relative;
   z-index: 99;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 img.certtall {
   margin:5vmin;
@@ -94,7 +95,7 @@ img.certtall {
   height:50vh;
   position: relative;
   z-index: 99;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   }
 div#certcon {
   width:100vw;
