@@ -10,6 +10,11 @@ body {
   
 }
 
+div#headercon {
+  display: flex;
+  align-items: center;
+}
+
 header {
 margin-top: 5vmin;
 width: 90vw;
