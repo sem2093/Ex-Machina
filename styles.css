@@ -57,7 +57,20 @@ z-index:150;
 position:fixed;
 bottom:5vmin;
 }
-
+#projects {
+ display:none;
+}
+#projects:target {
+	width: 90vw;
+border: 5px solid black;
+display: flex;
+text-align: center;
+box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
+z-index:250;
+background-color: #FFFFFF;
+position:fixed;
+top:25vh;
+}
 
 #concon {
   display:none; 
