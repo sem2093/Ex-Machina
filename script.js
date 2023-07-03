@@ -13,7 +13,7 @@ fetch('https://api.kanye.rest/')
   .then(response => response.json())
   .then(data => {
     const quote = data.quote;
-    quoteContainer.textContent = quote;
+    quoteContainer.textContent = quote+" "+"-Kanye West";
   })
   .catch(error => {
     console.error('Error fetching Kanye quote:', error);
