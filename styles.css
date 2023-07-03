@@ -98,6 +98,13 @@ top:25vh;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+p.about:first-letter { 
+  font-size: 100px; 
+  display: block; 
+  float: left; 
+  line-height: .5; 
+  margin: 15px 15px 10px 0; 
+}
 
 img.cert {
   margin:5vmin;
