@@ -83,7 +83,6 @@ footer{
 img.cert {
   margin:5vmin;
   border: 5px solid black;
-  opacity: 0.5;
   width:70vw;
   height:30vh;
   max-width: 100%;
@@ -94,7 +93,6 @@ img.cert {
 img.certtall {
   margin:5vmin;
   border: 5px solid black;
-  opacity: 0.5;
   width:70vw;
   height:50vh;
   position: relative;
