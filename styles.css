@@ -1,36 +1,27 @@
 html, body {
   height: 100vh;
   font-size: 16px;
+background: red;
 }
-  
+
+
 body {
   margin: 0;
   padding: 0;
 }
 nav {
+display: flex;
+  align-items: center;
+justify-content:center;
+  flex-direction: row;
   top:5vh;
   left:1vw;
   position:fixed;
   z-index:150;
-  }
-  
-div#quote-container{
-  border: 5px solid black;
-  font-size:2em;
-  text-align: center;
-  padding:10px;
-  width: 80vw;
-  background-color: #FFFFFF;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
+width:100vw;
+gap: 40px;
   }
 
-nav ul {
-  list-style-type: none; 
-}
-
-nav li {
-  display: inline; 
-}
 
 a.toggle-button {
   display: inline;
@@ -44,16 +35,8 @@ a.toggle-button {
   z-index: 200;
   padding: 10px;
   text-shadow:2px 2px 4px rgba(0, 0, 0, 0.9);
+writing-mode: vertical-lr;
   }
-div.filler{
-  width:100vw;
-  height:50vh;
-  }
-div#headercon {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
 main{
   display: flex;
@@ -153,8 +136,6 @@ background-color: #FFFFFF;
 top:25vh;
 }
     
-    
-    
 #certcon {
   display:none;
 }
@@ -173,13 +154,14 @@ z-index: 250;
 
 
 * {
-background: red;
+;
 }
 
 .container {
 display:flex;
 flex-direction:row;
 gap: 10px;
+	background: red;
 }
 
 .box {
@@ -192,6 +174,7 @@ animation-name: fade;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
+	background: red;
 
 }
 
