@@ -125,7 +125,7 @@ img.cloud {
   width:50vw;
 	height:40vh;
   max-width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 1;
   }
 
