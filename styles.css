@@ -180,12 +180,7 @@ animation-name: fade;
 
 100% {  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.0);}
 }
-
-/* Styling the track */
-#certcon::-webkit-scrollbar {
-  width: 10px;
-}
-
+p
 #certcon::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
