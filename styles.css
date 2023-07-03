@@ -26,6 +26,8 @@ box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 position:relative;
 z-index:99;
 opacity: 0.5;
+position:fixed;
+top:5vmin;
 
 }
 
