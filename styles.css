@@ -18,9 +18,10 @@ nav ul {
 }
 
 nav li {
-  display: inline-block; 
+  display: inline; 
   margin: 1vmin;
 }
+
 a.toggle-button {
   display: inline;
   text-decoration: none;
