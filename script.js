@@ -3,8 +3,21 @@
 This is a multi-line comment.
 It can span multiple lines.
 */
-
 alert ("WARNING! Viewer discretion is advised.") 
+
+
+// Kanye Rest API GET
+const quoteContainer = document.getElementById('quote-container');
+
+fetch('https://api.kanye.rest/')
+  .then(response => response.json())
+  .then(data => {
+    const quote = data.quote;
+    quoteContainer.textContent = quote;
+  })
+  .catch(error => {
+    console.error('Error fetching Kanye quote:', error);
+  });
 /*
 The following section of code 
 sets source(src) of the image(img)
