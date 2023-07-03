@@ -6,12 +6,15 @@ html, body {
 body {
   margin: 0;
   padding: 0;
-
 }
+nav {
+  position:fixed;
+  z-index:150;
+  }
+  
+
 nav ul {
   list-style-type: none; 
-  margin: 0;
-  padding: 0;
 }
 
 nav li {
@@ -40,12 +43,6 @@ div#headercon {
   flex-direction: column;
 }
 
-header {
-top: 8vmin;
-text-align: center;
-z-index:150;
-position:fixed;
-}
 main{
   display: flex;
   flex-direction: column;
