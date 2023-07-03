@@ -41,7 +41,7 @@ div#headercon {
 }
 
 header {
-width: 90vw;
+top: 8vmin;
 text-align: center;
 z-index:150;
 position:fixed;
