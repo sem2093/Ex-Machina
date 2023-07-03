@@ -31,6 +31,7 @@ position:relative;
 z-index:150;
 position:fixed;
 top:5vmin;
+background-color: #FFFFFF;
 }
 
 main{
