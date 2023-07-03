@@ -41,12 +41,10 @@ div#headercon {
 }
 
 header {
-margin-top: 5vmin;
 width: 90vw;
 text-align: center;
 z-index:150;
 position:fixed;
-top:5vmin;
 }
 main{
   display: flex;
