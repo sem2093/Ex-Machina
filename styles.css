@@ -16,7 +16,7 @@ nav ul {
 
 nav li {
   display: inline-block; 
-  margin: 10vmin;
+  margin: 1vmin;
 }
 a.toggle-button {
   display: inline;
