@@ -18,7 +18,6 @@ header {
 margin-top: 5vmin;
 width: 90vw;
 border: 5px solid black;
-background-color: rgba(0, 0, 0, 0.2);
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -42,18 +41,18 @@ footer{
   }
 
   div {
-    width: 100vw;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-   text-align: center;
+  text-align: center;
   }
     
    h1 {
   font-size: 2rem;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
  
 		
@@ -61,20 +60,20 @@ footer{
   h2 {
   font-size: 2rem;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   
  h3 {
   font-size: 2rem;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
  p {
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
 img.cert {
@@ -133,7 +132,7 @@ img.cloud {
 
 #cloud1 {
 animation-name: hone;
-	animation-duration: 10s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -141,7 +140,7 @@ animation-name: hone;
 }
 #cloud2 {
 animation-name: movearound;
-	animation-duration: 9s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -149,7 +148,7 @@ animation-name: movearound;
 }
 #cloud3 {
 animation-name: hone;
-	animation-duration: 8s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -158,7 +157,7 @@ animation-name: hone;
 
 #cloud4 {
 animation-name: movearound;
-	animation-duration: 4s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -167,7 +166,7 @@ animation-name: movearound;
 
 #cloud5 {
 animation-name: movearound;
-	animation-duration: 5s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -175,7 +174,7 @@ animation-name: movearound;
 }
 #cloud6 {
 animation-name: hone;
-	animation-duration: 6s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -183,7 +182,7 @@ animation-name: hone;
 }
 #cloud7 {
 animation-name: movearound;
-	animation-duration: 7s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -192,7 +191,7 @@ animation-name: movearound;
 
 #cloud8 {
 animation-name: hone;
-	animation-duration: 8s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -200,7 +199,7 @@ animation-name: hone;
 }
 #cloud9 {
 animation-name: movearound;
-	animation-duration: 9s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -209,7 +208,7 @@ animation-name: movearound;
 
 #cloud10 {
 animation-name: movearound;
-	animation-duration: 10s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -217,7 +216,7 @@ animation-name: movearound;
 }
 #cloud11 {
 animation-name: hone;
-	animation-duration: 1s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -225,7 +224,7 @@ animation-name: hone;
 }
 #cloud12 {
 animation-name: movearound;
-	animation-duration: 2s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -233,7 +232,7 @@ animation-name: movearound;
 }
 #cloud13 {
 animation-name: movearound;
-	animation-duration: 3s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -241,7 +240,7 @@ animation-name: movearound;
 }
 #cloud14 {
 animation-name: hone;
-	animation-duration: 4s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
@@ -249,7 +248,7 @@ animation-name: hone;
 }
 #cloud15 {
 animation-name: movearound;
-	animation-duration: 5s;
+	animation-duration: 20s;
 	animation-timing-function: linear;
 	animation-delay: 0s;
 	animation-iteration-count: infinite;
