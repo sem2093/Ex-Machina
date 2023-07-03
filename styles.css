@@ -9,6 +9,13 @@ body {
 
 }
 
+a {
+  text-decoration: none;
+  font-size: 2em;
+  border: 5px solid black;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
+  background-color: #FFFFFF;
+  }
 div.filler{
   width:100vw;
   height:25vh;
