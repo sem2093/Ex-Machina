@@ -111,18 +111,18 @@ div#cloudcon {
   }
 
 @keyframes movearound  { 
-0% {transform: translateX(0);}
-100% {transform: translateX(-100vw);}
+0% {transform: translateX(25vw);}
+100% {transform: translateX(-25vw);}
 }
  @keyframes hone  { 
-0% {transform: translateX(0);}
-100% {transform: translateX(100vw);}
+0% {transform: translateX(-25vw);}
+100% {transform: translateX(25vw);}
 }
 
 
 img.cloud {
   opacity: 0.5;
-  width:100vw;
+  width:50vw;
 	height:40vh;
   max-width: 100%;
   position: absolute;
