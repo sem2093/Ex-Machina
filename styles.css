@@ -8,15 +8,15 @@ body {
   padding: 0;
 
 }
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
 
-a#acert{
-  left:5vmin;
-  }
-a#acon{
-  right:10vmin;
-  
-  }
-
+nav li {
+  display: inline-block; 
+}
 a.toggle-button {
   display: inline;
   text-decoration: none;
@@ -26,8 +26,6 @@ a.toggle-button {
   border-radius:5px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
   background-color: #FFFFFF;
-  position:fixed;
-  top:25vh;
   z-index: 200;
   padding: 10px;
   }
