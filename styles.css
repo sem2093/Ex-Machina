@@ -10,23 +10,26 @@ body {
 }
 
 a#acert{
-  left:2vmin;
+  left:5vmin;
   }
 a#acon{
-  right:2vmin;
+  right:10vmin;
   
   }
 
 a.toggle-button {
   display: inline;
   text-decoration: none;
-  font-size: 2em;
+  color: black;
+  font-size: 1em;
   border: 5px solid black;
+  border-radius:5px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
   background-color: #FFFFFF;
   position:fixed;
   top:25vh;
   z-index: 200;
+  padding: 10px;
   }
 div.filler{
   width:100vw;
