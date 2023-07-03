@@ -26,6 +26,7 @@ a.toggle-button {
   background-color: #FFFFFF;
   position:fixed;
   top:25vh;
+  z-index: 200;
   }
 div.filler{
   width:100vw;
@@ -79,6 +80,7 @@ align-items: center;
 text-align: center;
 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 z-index:99;
+position:relative;
 background-color: #FFFFFF;
 }
    h1 {
