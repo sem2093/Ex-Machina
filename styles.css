@@ -8,6 +8,8 @@ body {
   padding: 0;
 }
 nav {
+  top:5vh;
+  left:5vw;
   position:fixed;
   z-index:150;
   }
@@ -19,7 +21,6 @@ nav ul {
 
 nav li {
   display: inline; 
-  margin: 1vmin;
 }
 
 a.toggle-button {
