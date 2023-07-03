@@ -109,13 +109,14 @@ img.certtall {
   z-index: 99;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
   }
-div#certcon {
-  width:100vw;
-  display:flex;
-  flex-direction:column;
-  align-items: center;
   
-  }
+#certcon {
+  display:none;
+}
+
+#certcon:target {
+  display: block;
+}
   
 div#cloudcon {
  width: 100vw;
