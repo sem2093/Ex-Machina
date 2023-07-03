@@ -19,9 +19,9 @@ div#quote-container{
   font-size:2em;
   text-align: center;
   padding:10px;
-  height: 30vh;
   width: 80vw;
   background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
   }
 
 nav ul {
