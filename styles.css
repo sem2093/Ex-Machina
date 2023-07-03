@@ -54,7 +54,11 @@ flex-direction: column;
 align-items: center;
 }
 
-div#concon{
+#concon {
+  display:none; 
+  }
+
+#concon:target {
 width: 90vw;
 border: 5px solid black;
 display: flex;
