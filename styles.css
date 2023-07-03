@@ -42,13 +42,10 @@ div#headercon {
 header {
 margin-top: 5vmin;
 width: 90vw;
-border: 5px solid black;
 text-align: center;
-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 z-index:150;
 position:fixed;
 top:5vmin;
-background-color: #FFFFFF;
 }
 div#footercon {
   display: flex;
