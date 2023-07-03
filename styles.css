@@ -9,7 +9,7 @@ body {
 }
 nav {
   top:5vh;
-  left:5vw;
+  left:1vw;
   position:fixed;
   z-index:150;
   }
@@ -26,12 +26,12 @@ nav li {
 a.toggle-button {
   display: inline;
   text-decoration: none;
-  color: black;
+  color:  #FFFFFF;
   font-size: 1em;
   border: 5px solid black;
   border-radius:10px;
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
-  background-color: #FFFFFF;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.9);
   z-index: 200;
   padding: 10px;
   }
