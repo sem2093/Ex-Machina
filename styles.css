@@ -16,6 +16,7 @@ nav ul {
 
 nav li {
   display: inline-block; 
+  margin: 10vmin;
 }
 a.toggle-button {
   display: inline;
@@ -23,7 +24,7 @@ a.toggle-button {
   color: black;
   font-size: 1em;
   border: 5px solid black;
-  border-radius:5px;
+  border-radius:10px;
   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
   background-color: #FFFFFF;
   z-index: 200;
