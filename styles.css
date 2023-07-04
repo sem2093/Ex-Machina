@@ -47,15 +47,10 @@ top:25vh;
   }
 
 #concon:target {
-width: 90vw;
-border: 5px solid black;
 display: block;
 text-align: center;
-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 z-index:250;
 background-color: #FFFFFF;
-position:fixed;
-top:25vh;
 }
    h1 {
   font-size: 4rem;
@@ -113,14 +108,9 @@ img.certtall {
   }
   #aboutcon:target {
     display:block;
-    width: 90vw;
-border: 5px solid black;
 text-align: center;
-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 z-index:250;
 background-color: #FFFFFF;
- position:fixed;
-top:25vh;
 }
     
 #certcon {
@@ -128,14 +118,10 @@ top:25vh;
 }
 
 #certcon:target {
-width:90vw;
-height:40vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 overflow: scroll;
-position:fixed;
-top:25vh;
 z-index: 250;
 }
 
@@ -144,26 +130,6 @@ z-index: 250;
 ;
 }
 
-.container {
-display:flex;
-flex-direction:row;
-gap: 10px;
-	background: red;
-}
-
-.box {
-margin: 20px;
- width:100px;
-height:100px;
-animation-name: fade;
-	animation-duration: 1s;
-	animation-timing-function: ease;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	background: red;
-
-}
 
 @keyframes fade {
  0% { box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);}
