@@ -9,19 +9,6 @@ body {
   margin: 0;
   padding: 0;
 }
-nav {
-display: flex;
-  align-items: center;
-justify-content:center;
-  flex-direction: row;
-  top:5vh;
-  left:1vw;
-  position:fixed;
-  z-index:150;
-width:100vw;
-gap: 40px;
-  }
-
 
 main{
   display: flex;
@@ -29,7 +16,7 @@ main{
   align-items: center;
   }
   
-div#footercon {
+div#copyright {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -73,7 +60,7 @@ position:fixed;
 top:25vh;
 }
    h1 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
