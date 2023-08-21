@@ -62,7 +62,7 @@ background-color: #FFFFFF;
 h1 {
 font-size: 4rem;
 font-weight: 600;
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+background-color: $blue-300; 
 }
  
 h2 {
