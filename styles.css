@@ -58,6 +58,7 @@ text-align: center;
 z-index:250;
 background-color: #FFFFFF;
 }
+
 h1 {
 font-size: 4rem;
 font-weight: 600;
@@ -111,6 +112,7 @@ position: relative;
 z-index: 99;
 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
+
 #aboutcon{
 display:none;
 }
