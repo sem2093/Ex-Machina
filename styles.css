@@ -7,10 +7,6 @@ html, body {
   font-size: 16px;
 }
 
-:root{
-  background: $blue-400; 
-  }
-
 body {
   margin: 0;
   padding: 0;
