@@ -46,7 +46,6 @@ display: flex;
 text-align: center;
 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 z-index:250;
-background-color: #FFFFFF;
 position:fixed;
 top:25vh;
 }
@@ -59,7 +58,6 @@ display:none;
 display: block;
 text-align: center;
 z-index:250;
-background-color: #FFFFFF;
 }
 
 h1 {
@@ -125,7 +123,6 @@ display:none;
 display:block;
 text-align: center;
 z-index:250;
-background-color: #FFFFFF;
 }
     
 #certcon {
