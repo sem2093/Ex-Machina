@@ -2,9 +2,12 @@
 outline: 1px solid red;
 }
 
+:root { 
+font-size: 16px;
+}
 
 html, body {
-font-size: 16px;
+  
 }
 
 body {
