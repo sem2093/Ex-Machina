@@ -1,2 +1,2 @@
 # Steven Miller Developer 
-Designed for Experimental Purpose
+This repository contains my portfolio 
