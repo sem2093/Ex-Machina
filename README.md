@@ -1,2 +1,2 @@
-# Steven Miller Developer 
+# Portfolio
 This repository contains my portfolio 
