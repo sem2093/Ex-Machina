@@ -33,21 +33,6 @@ position:fixed;
 bottom:5vmin;
 }
 
-#apiproject {
-display:none;
-}
-
-#apiproject:target {
-width: 90vw;
-border: 5px solid black;
-display: flex;
-text-align: center;
-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
-z-index:250;
-position:fixed;
-top:25vh;
-}
-
 #concon {
 display:none; 
 }
@@ -135,11 +120,6 @@ overflow: scroll;
 z-index: 250;
 }
 
-div.centerh1 {
-display: flex;
-justify-content: center;
-align-items: center;
-height: auto;
-}
+
 
 
