@@ -137,7 +137,9 @@ form {
   background-color: blue;
   color: white;
 }
-
+button {
+margin: 5px;
+}
 
 
 
