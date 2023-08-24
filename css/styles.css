@@ -139,5 +139,7 @@ position: fixed;
 
 button.icon {
 margin: 15px;
+background-color: black;
+color: white;
 }
 
