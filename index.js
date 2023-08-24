@@ -1,3 +1,6 @@
+handleSubmit() { appendAlert('Follow me on github and I'll follow you back!', 'success') }
+
+
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div')
@@ -13,7 +16,7 @@ const appendAlert = (message, type) => {
 
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
-  alertTrigger.addEventListener('click', () => {
+  alertTrigger.addEventListener('submit', () => {
     appendAlert('Follow me on github and I'll follow you back!', 'success')
   })
 }
