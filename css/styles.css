@@ -121,9 +121,13 @@ z-index: 250;
 }
 
 form { 
+  padding: 15px;
   width: 70vw; 
-  height: 60vh;
+  height: 40vh;
   margin: 60px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
 }
 
 
