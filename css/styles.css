@@ -126,7 +126,17 @@ form.username  {
   color: white;
 }
 
+nav.search {
+border-radius: 10px;
+ width: 50vw;
+}
 
+button.indicator {
+position: fixed;
+ bottom: 30px;
+}
 
-
+button.icon {
+margin: 15px;
+}
 
