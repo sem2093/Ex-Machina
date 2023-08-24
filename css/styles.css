@@ -128,12 +128,13 @@ form.username  {
 
 nav.search {
 border-radius: 10px;
- width: 50vw;
+ width: 75vw;
 }
 
 button.indicator {
 position: fixed;
  bottom: 30px;
+ margin: 5px;
 }
 
 button.icon {
