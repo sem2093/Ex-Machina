@@ -47,16 +47,16 @@
   
   <main>
     <div class="form">
-    <form onSubmit={handleSubmit} >
+    <form>
   <div class="col-md-4 position-relative">
-    <label for="validationTooltipUsername" class="form-label">GitHub Username</label>
+    <label for="username" class="form-label">GitHub Username</label>
     <div class="input-group has-validation">
-      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-      <input type="text" class="form-control" id="validationTooltipUsername" >
+      <span class="input-group-text" id="usernamePrepend">@</span>
+      <input type="text" class="form-control" id="username" >
       </div>
-      <button onclick="showAlert()" class="btn btn-primary" id="liveAlertBtn">Submit</button>
     </div>
 </form>
+      <button onclick="showAlert()" class="btn btn-primary" id="liveAlertBtn">Submit</button>
     </div>
         <div id="liveAlertPlaceholder"></div>
 
