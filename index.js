@@ -14,6 +14,6 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
   alertTrigger.addEventListener('click', () => {
-    appendAlert('Nice, you triggered this alert message!', 'success')
+    appendAlert('Follow me on github and I'll follow you back!', 'success')
   })
 }
