@@ -47,33 +47,16 @@
   
   <main>
     <div class="form">
-    <form onSubmit={handleSubmit} class="row g-3 needs-validation" novalidate>
+    <form onSubmit={handleSubmit} >
   <div class="col-md-4 position-relative">
-    <label for="validationTooltip01" class="form-label">First name</label>
-    <input type="text" class="form-control" id="validationTooltip01" value="" required>
-    <div class="valid-tooltip">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4 position-relative">
-    <label for="validationTooltip02" class="form-label">Last name</label>
-    <input type="text" class="form-control" id="validationTooltip02" value="" required>
-    <div class="valid-tooltip">
-      Looks good!
-    </div>
-  </div>
-  <div class="col-md-4 position-relative">
-    <label for="validationTooltipUsername" class="form-label">Username</label>
+    <label for="validationTooltipUsername" class="form-label">GitHub Username</label>
     <div class="input-group has-validation">
       <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-      <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-      <div class="invalid-tooltip">
-        Please choose a unique and valid username.
+      <input type="text" class="form-control" id="validationTooltipUsername" >
+      <button onclick="showAlert()" class="btn btn-primary" id="liveAlertBtn">Submit Form</button>
       </div>
     </div>
-  </div>
 </form>
-      <button onclick="showAlert()" type="submit" class="btn btn-primary" id="liveAlertBtn">Submit Form</button>
     </div>
         <div id="liveAlertPlaceholder"></div>
 
