@@ -120,6 +120,12 @@ overflow: scroll;
 z-index: 250;
 }
 
+form { 
+  width: 70vw; 
+  height: 60vh;
+  margin: 60px;
+}
+
 
 
 
