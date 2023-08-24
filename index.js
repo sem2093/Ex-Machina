@@ -1,4 +1,4 @@
-handleSubmit() { appendAlert('Follow me on github and I'll follow you back!', 'success') }
+function handleSubmit() { appendAlert('Follow me on github and I'll follow you back!', 'success') }
 
 
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
