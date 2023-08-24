@@ -20,3 +20,6 @@ if (alertTrigger) {
     appendAlert('Follow me on github and I'll follow you back!', 'success')
   })
 }
+function showAlert() {
+    alert('Follow me on github and I'll follow you back!');
+}
