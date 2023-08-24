@@ -2,6 +2,7 @@
 
 :root { 
 font-size: 16px;
+ margin: 20px;
 }
 
 html, body {
@@ -11,16 +12,6 @@ font-family: 'Inconsolata', monospace;
 body {
 margin: 0;
 padding: 0;
-}
-
-#concon {
-display:none; 
-}
-
-#concon:target {
-display: block;
-text-align: center;
-z-index:250;
 }
 
 h1 {
@@ -108,6 +99,10 @@ div.form{
   justify-content: center;
 }
 
+a {
+margin: 20px;
+}
+
 div.icons{ 
   height: 70vh;
     display:flex;
@@ -117,13 +112,10 @@ div.icons{
 }
 
 form.username  { 
-  
   padding: 15px;
   width: 70vw; 
   margin: 20px;
   border-radius: 10px;
-  background-color: blue;
-  color: white;
 }
 
 nav.search {
