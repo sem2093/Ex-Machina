@@ -1,8 +1,5 @@
-const carousel = new bootstrap.Carousel('#myCarousel')
-const myCarousel = document.getElementById('myCarousel')
+// Get a reference to the <html> tag
+var htmlTag = document.documentElement;
 
-myCarousel.addEventListener('slide.bs.carousel', event => {
-  direction:"right"
-  relatedTarget:"div"
-})
-
+// Add an attribute and value to the <html> tag
+htmlTag.setAttribute("yourAttributeName", "yourAttributeValue");
