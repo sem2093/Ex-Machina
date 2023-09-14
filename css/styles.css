@@ -24,7 +24,7 @@ header{
 h1 {
 font-size: 4rem;
 font-weight: 600;
-margin: 20px; 
+margin: 5px; 
 padding: 0;
 width: auto;  
 white-space: normal;
@@ -79,11 +79,12 @@ z-index: 250;
 }
 
 .skills{ 
- left: 30px;
+margin-left: 30px;
 }
 
 footer{
 padding: 10px;
  position:fixed;
  bottom: 1px;
+ width: 100%;
 }
