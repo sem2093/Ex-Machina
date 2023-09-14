@@ -19,8 +19,6 @@ padding: 0;
 }
 header{
  width: 100%;
-height: 100px;
- margin: 30px;
 }
 
 h1 {
@@ -29,7 +27,6 @@ font-weight: 600;
 margin: 20px; 
 padding: 0;
 width: auto;  
-max-width: calc(100% - 40px);  
 white-space: normal;
 }
 
@@ -80,8 +77,13 @@ align-items: center;
 overflow: scroll;
 z-index: 250;
 }
+
+.skills{ 
+ left: 30px;
+}
+
 footer{
-padding: 20px;
+padding: 10px;
  position:fixed;
  bottom: 1px;
 }
