@@ -27,7 +27,13 @@ width: auto;
 max-width: calc(100% - 40px);  
 white-space: normal;
 }
- 
+div.skillprogress{
+display:flex;
+ flex-direction: column;
+ align-text: center; 
+ align-items: center;
+ justify-content: center;
+}
 h2 {
 font-size: 2rem;
 font-weight: 600;
@@ -74,4 +80,6 @@ z-index: 250;
 }
 footer{
 padding: 20px;
+ position:fixed;
+ bottom: 1px;
 }
