@@ -8,6 +8,11 @@ html, body {
 font-family: 'Inconsolata', monospace;
 }
 
+nav{
+ width: 100%;
+ color: white;
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -27,13 +32,7 @@ width: auto;
 max-width: calc(100% - 40px);  
 white-space: normal;
 }
-div.skillprogress{
-display:flex;
- flex-direction: column;
- align-text: center; 
- align-items: center;
- justify-content: center;
-}
+
 h2 {
 font-size: 2rem;
 font-weight: 600;
@@ -41,6 +40,9 @@ font-weight: 600;
   
 h3 {
 font-size: 2rem;
+font-weight: 600;
+}
+h5{
 font-weight: 600;
 }
 
