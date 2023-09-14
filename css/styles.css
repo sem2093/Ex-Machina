@@ -20,7 +20,12 @@ padding: 0;
 header{
  width: 100%;
 }
-
+.sideways-text {
+            transform: rotate(-90deg); /* Rotate the text 90 degrees counterclockwise */
+            transform-origin: left top; /* Set the rotation origin to the top-left corner */
+            white-space: nowrap; /* Prevent text from wrapping */
+        }
+   
 h1 {
 font-size: 4rem;
 font-weight: 600;
