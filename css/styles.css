@@ -57,7 +57,7 @@ text-align: center;
 img.cert {
 margin:5vmin;
 border: 5px solid black;
-width:70vw;
+width:100%;
 height:30vh;
 max-width: 100%;
 position:relative;
@@ -92,7 +92,7 @@ padding: 5px;
  justify-content:center;
 }
 div.skillsprogress{
-width: 50%;
+width: 100%;
 hieght:auto;
 padding: ;
 }
