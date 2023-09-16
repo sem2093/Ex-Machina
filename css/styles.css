@@ -39,6 +39,14 @@ h2 {
 font-size: 2rem;
 font-weight: 600;
 }
+img.certtall {
+margin:5vmin;
+border: 5px solid black;
+width:100%;
+height:50vh;
+position: relative;
+z-index: 99;
+}
   
 h3 {
 font-size: 2rem;
@@ -65,20 +73,8 @@ z-index: 99;
 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
 }
 
-img.certtall {
-margin:5vmin;
-border: 5px solid black;
-width:70vw;
-height:50vh;
-position: relative;
-z-index: 99;
-box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
-}
-
 #certcon {
-display: flex;
-flex-direction: column;
-align-items: center;
+width:100%;
 overflow: scroll;
 z-index: 250;
 }
