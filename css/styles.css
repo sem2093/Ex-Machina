@@ -26,13 +26,8 @@ header{
             white-space: nowrap; /* Prevent text from wrapping */
         }
    
-h1 {
-font-size: 4rem;
-font-weight: 600;
-margin: 5px; 
-padding: 0;
-width: auto;  
-white-space: normal;
+.display-1 { 
+ margin-right: 50px
 }
 
 h2 {
