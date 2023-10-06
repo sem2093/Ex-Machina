@@ -82,8 +82,12 @@ img#dev{
 
 
 footer{
-
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+ justify-content: center;
 }
+
 div.skillsprogress{
 width: 100%;
 hieght:auto;
