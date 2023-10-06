@@ -89,3 +89,7 @@ width: 100%;
 hieght:auto;
 padding: ;
 }
+svg {
+height: 50px;
+ width: 50px;
+}
