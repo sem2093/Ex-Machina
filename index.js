@@ -20,7 +20,7 @@ htmlTag.setAttribute("data-bs-theme", "light");
 function blueMode(){
   
 
-var bluediv = document.getElementById("myElement");
-bluediv.classList.remove(" ");
-bluediv.classList.add("p-3,text-primary-emphasis, bg-primary-subtle, border, border-primary-subtle, rounded-3");
+var bluediv = document.getElementById("test");
+bluediv.classList.remove("fluid-container");
+bluediv.classList.add("p-3","text-primary-emphasis", "bg-primary-subtle", "border", "border-primary-subtle", "rounded-3");
 }
