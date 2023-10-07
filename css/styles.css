@@ -97,3 +97,8 @@ svg {
 height: 50px;
  width: 50px;
 }
+div#colcontainer {
+display:flex;
+ flex-direction: column;
+
+}
