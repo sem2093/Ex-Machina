@@ -21,7 +21,6 @@ function blueMode(){
   
 
 var bluediv = document.getElementById("myElement");
-div.classList.remove("active");
-var element = document.getElementById("myElement");
-div.classList.add("p-3,text-primary-emphasis, bg-primary-subtle, border, border-primary-subtle, rounded-3");
+bluediv.classList.remove(" ");
+bluediv.classList.add("p-3,text-primary-emphasis, bg-primary-subtle, border, border-primary-subtle, rounded-3");
 }
