@@ -24,14 +24,9 @@ padding: 0;
 header{
  width: 100%;
 }
-.sideways-text {
-            transform: rotate(-90deg); /* Rotate the text 90 degrees counterclockwise */
-            transform-origin: left top; /* Set the rotation origin to the top-left corner */
-            white-space: nowrap; /* Prevent text from wrapping */
-        }
-   
-.display-1 { 
- margin-left: 50px;
+.display-1 {
+margin-top:50px;
+
 }
 
 img.certtall {
