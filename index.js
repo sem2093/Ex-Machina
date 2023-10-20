@@ -54,3 +54,8 @@ else { response = "okay"}
 chat.innerHTML = "<br>Me:<br>"+inputStr + "  <br>Bot: <br>" + response + history; 
 
 }
+
+function time() {
+const clock = document.getElementById("time");
+clock.innerHTML = new Date();
+}
