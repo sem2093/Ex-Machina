@@ -16,6 +16,7 @@
     <a class="navbar-brand" href="#"><div class="btn-group" role="group" aria-label="Basic outlined example">
   <button type="button" class="btn btn-outline-primary" onclick="darkMode()"><i class="bi bi-moon-fill"></i></button>
  <button type="button" class="btn btn-outline-primary" onclick="lightMode()"><i class="bi bi-brightness-high-fill"></i></button></div></a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#chatBot"  aria-controls="offcanvasTop">Chat GPST3V3</button>
     
   </div>
 </nav>
@@ -199,6 +200,21 @@
   <img class="certtall" src="certificates/BB86BC3B-486A-4C44-8C23-5ECEB2F69001.jpeg">
   <img class="certtall" src="certificates/DAF56264-87B6-4992-B6D2-3A7E2642CA11.jpeg">
   </div>  
+  </div>
+</div>
+<!--------- Chat Bot/ off canvas ---------->
+<div class="offcanvas offcanvas-top" tabindex="-1" id="chatBot" aria-labelledby="offcanvasTopLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasTopLabel">Chat GPST3V3</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p> Say Hello. Ask for the date or time. Calculate (use "*" for multiplication and "/" for divsion.)</p>
+    <div class="input-group mb-3">
+  <input type="text" id="userInput" class="form-control" placeholder="Message" aria-label="chatbotinput" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="decideResponse()">Submit</button>
+</div>
+<div id="chat" class="card" ></div>
   </div>
 </div>
    
